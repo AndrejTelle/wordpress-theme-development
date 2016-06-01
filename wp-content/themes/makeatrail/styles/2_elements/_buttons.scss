@@ -1,0 +1,108 @@
+﻿/* buttons - default theme for discoverize.com portal - created 16.10.12 - author: andrej telle - teamaton.com */
+
+/*csslint unqualified-attributes:false, outline-none:false*/
+
+ a, button {transition:background-color .1s ease;}
+
+@mixin button($color:$primary, $text-color:$txt-on-primary, $txt-shadow:$txt-shadow-on-primary, $size:1.2em) {
+    @extend %primary-font;
+    @include rounded(3px, 3px, 3px, 3px);
+	background:$color;
+    display:inline-block;
+	font-size: $size;
+    *font-size: $size; /*IE 6/7 - To reduce IE's oversized button text*/
+    *overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+    padding: 0.8em 1.5em 0.7em;
+    
+	color: $text-color; /* rgba not supported (IE 8) */
+	
+	border: 1px solid #cccccc;
+	border: 1px solid darken($color, 7);	
+	border-right-color: darken($color, 15);
+	border-bottom-color: darken($color, 30);
+	
+	text-align:center;
+    text-decoration: none;
+	text-shadow: 1px 1px 1px $txt-shadow, 0 0 1px $txt-shadow;    
+	transition:background-color .2s ease;
+    vertical-align: middle;
+	
+    /* Transitions on hover - see hover rules */
+    -webkit-transition: 0.1s linear -webkit-box-shadow;
+    -moz-transition: 0.1s linear -moz-box-shadow;
+    -ms-transition: 0.1s linear box-shadow;
+    -o-transition: 0.1s linear box-shadow;
+    transition: 0.1s linear box-shadow;
+	
+	&:hover, &:focus {
+		background:darken($color,10);
+		color:$text-color;
+	}
+	
+	&:focus {
+		outline: 0;
+	}
+	
+	&:active {
+		box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+	}
+	
+}
+
+.button[disabled],
+.button-disabled,
+.button-disabled:hover,
+.button-disabled:focus,
+.button-disabled:active {
+	@include button;    
+	background:#ddd !important;
+	background-image:none;
+	border: solid 1px #bbb;
+	color:#111;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    filter: alpha(opacity=40);
+    -khtml-opacity: 0.40;
+    -moz-opacity: 0.40;
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+	text-shadow:none;	
+}
+
+/* Firefox: Get rid of the inner focus border */
+/* .button-new::-moz-focus-inner{
+    padding: 0;
+    border: 0;
+} */
+
+.button-primary, .primary-action {@include button;}
+.button-octary {@include button($octary, $txt-on-octary, $txt-shadow-on-octary, 1.2em);}
+.button-circle {-webkit-border-radius:50%; -moz-border-radius: 50%; border-radius: 50%;;}
+.button-secondary, .secondary-action {@include button($secondary, $txt-on-secondary, $txt-shadow-on-secondary);}
+.button-neutral {@include button($neutral, $txt-on-neutral, $txt-shadow-on-neutral);}
+.button-warning {@include button($negative, $txt-on-negative, $txt-shadow-on-negative);}
+
+.button-large {font-size:1.5em;}
+.button-medium {font-size:1em; padding:0.5em 1em 0.4em;}
+.button-small {font-size:0.8em; padding:0.2em 0.6em 0.1em 0.6em;}
+
+.button-compact {padding:0.2em 0.4em;}
+
+.button-icon-only {padding:0.2em 0.1em 0.1em 0.4em; font-size:1em;}
+
+.button-link {background:none; border:none; padding:0!important; cursor: pointer; color:$primary;}
+.button-link:hover {background:$primary; color:$txt-on-primary;}
+
+.button-clear {border:none; padding:0; cursor:pointer; }
+
+
+
+
+
+
+
+
+
+
+
+

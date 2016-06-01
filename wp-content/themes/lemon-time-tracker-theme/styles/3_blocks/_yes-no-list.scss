@@ -1,0 +1,6 @@
+/* yes-no list */
+
+	%yes-no-list {@extend %list-no-bullets;}
+	%yes-no-list li.no {color:#999;}
+
+/* end yes no list */

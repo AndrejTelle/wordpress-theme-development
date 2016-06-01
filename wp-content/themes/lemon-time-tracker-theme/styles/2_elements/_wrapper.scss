@@ -1,0 +1,5 @@
+/* wrapper for content seperation and styling */
+
+.wrapper {@include rounded(4px, 4px, 4px, 4px); background:lighten($neutral, 9); border:solid 1px $neutral; padding:0 12px 12px 12px;}
+
+.wrapper-full-width {width:700px; max-width:100%; margin:0 auto;}

@@ -1,0 +1,13 @@
+/* loading */
+
+	.loading { height: 100%; width: 100%; position: absolute; z-index: 11111; }
+	.loading .loading-layer { background: #fff; height: 100%; width: 100%; position: absolute; opacity:0.8; filter:alpha(opacity=80);}
+	.loading .loading-img { @extend %rounded; @extend .info; @extend %border-box; min-width: 320px; background: url(img/loading-large.gif) no-repeat scroll 20px 50% #fff; border:solid 2px #eee; display: inline-block; margin-top: 15px; padding: 50px 25px 25px 100px; position: relative; left: 50%; min-height: 30px; font-size:3em;}
+	
+	.loading-inline {display:none;}
+	.loading-layer-inline {position:absolute; top:0; left:0; right:0; bottom:0; background:rgba(255,255,255,0.8); z-index:10000;
+        h2 {background: url(img/loading-large.gif) no-repeat scroll 20px 50% #fff; border:solid 2px #eee; display: inline-block; margin-top: 1em; padding: 30px 25px 25px 100px; }
+        }
+	.loading-content-bottom {@extend %rounded; @extend .info; background: url(img/loading-large.gif) no-repeat scroll 20px 50% #fff; font-size:1.7em; border:solid 2px #eee; margin-top: 15px; padding: 50px 25px 25px 100px; position:absolute; bottom:2em; left:2em; right:2em;}
+
+/* end loading */

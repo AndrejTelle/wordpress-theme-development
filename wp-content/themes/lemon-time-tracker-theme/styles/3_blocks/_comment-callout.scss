@@ -1,0 +1,8 @@
+/* comment callout - with triangle bottom - created 17.4.2014 - author: andrej telle - teamaton.com */
+.comment-callout {@extend .wrapper; position:relative;}
+.comment-callout:after {@include triangle-b(20px, lighten($neutral, 9)); left:20px;} 
+.comment-callout:before {@include triangle-b(21px, darken($neutral,5)); left:19px;}
+
+.comment-callout-mini {@extend .comment-callout;}
+.comment-callout-mini:after {@include triangle-b(14px, lighten($neutral, 9)); left:16px;} 
+.comment-callout-mini:before {@include triangle-b(15px, darken($neutral,5)); left:15px;}

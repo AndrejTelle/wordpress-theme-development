@@ -1,0 +1,19 @@
+/* lists */
+
+ul {padding-left:1em; list-style:outside;}
+li {padding-bottom:0.5em;}
+
+@mixin list-clean {
+	padding:0; list-style:inside none;
+	li {
+		@include group;		
+		padding-bottom:0;
+	}
+}
+
+@mixin list-no-bullets{
+	padding:0; list-style:inside none;
+	li {
+		@include group;
+	}
+}

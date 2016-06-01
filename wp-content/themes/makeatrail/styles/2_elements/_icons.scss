@@ -1,0 +1,38 @@
+// icon styles
+
+@mixin icon-single($color: $primary, $size:2em){
+	background:none;
+	color:$color;
+	display:inline-block;
+	font-size:$size;	
+	width:$size/3;
+	height:$size/3;
+	line-height:1;
+	&:hover{
+		background:none;
+		color:darken($color,20);
+	}
+	span {
+		@extend %hide-text;
+	}
+	&:before {margin-right:0; width:auto;}
+}
+
+/* circle icon */
+
+	@mixin circle-icon($size, $bg-color, $fg-color) {
+		@extend %circle; @extend %border-box;
+		background-color: $bg-color; 
+		display:inline-block;
+		font-size: $size;
+		padding: $size/4; 		
+		width: $size; 
+		height: $size; 
+		text-align: center; 
+		color: $fg-color; 
+		line-height: 0.9;
+		}
+	
+/* end circle icon */
+
+	

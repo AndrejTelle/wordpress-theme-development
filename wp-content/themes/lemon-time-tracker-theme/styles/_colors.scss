@@ -1,0 +1,59 @@
+// colors for lemon time tracker - created 25.1.2016 - by andrej telle
+
+/* colors */
+    $primary: #0099C4;
+    $primary-darker: darken($primary, 10%);
+    $primary-lighter: lighten($primary, 10%);
+    $txt-on-primary: #fff;
+    $txt-shadow-on-primary:rgba(0, 0, 0, 0.75);
+    
+    $octary: #00b77a;
+    $txt-on-octary: #fff;
+    $txt-shadow-on-octary:rgba(0, 0, 0, 0.75);
+    $octary-fit: #089ED9;
+    $octary-fit2: #09DFE3;
+    $octary-complementary: #CC3D12;
+    $octary-contrast: #FF3059;
+
+
+    $green: #47a204; 
+    $green-darker: darken($green, 10%);
+
+    $red:#DE2F2F;
+    $red-darker:darken($red, 10%);
+
+    $tertiary: #ff3059;
+    
+    $secondary: #5bb75b;
+    $secondary-darker: darken($secondary, 5%);
+    $secondary-lighter: lighten($secondary, 5%);
+    $txt-on-secondary: #fff;
+    $txt-shadow-on-secondary:rgba(0, 0, 0, 0.75);
+    
+    $neutral: #ddd;
+    $neutral-lighter: lighten($neutral, 3);
+    $neutral-light: lighten($neutral, 9);
+    $neutral-darker: darken($neutral, 10);      
+    $neutral-dark: darken($neutral, 20);        
+    $txt-on-neutral: #333;
+    $txt-shadow-on-neutral:rgba(255, 255, 255, 0.8);
+    
+    $txt-bg: #fff;
+    $txt-color: #555;
+    $txt-light: #fff;
+    
+    $positive: #23B128;
+    
+    $negative: #F6B83F;
+    $txt-on-negative: #333;
+    $txt-shadow-on-negative: #fff;
+    
+    $error: #CA3838;
+    
+    $bg-grey-transparent:rgba(0,0,0, 1);
+
+    $bg-body:#fafafa;
+
+
+    
+/* end colors */

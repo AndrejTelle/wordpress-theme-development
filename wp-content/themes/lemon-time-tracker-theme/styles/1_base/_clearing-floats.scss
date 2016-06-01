@@ -1,0 +1,33 @@
+/* clearing floats */
+
+/* clear children's floats */
+
+	.group:before,
+	.group:after {
+		content:"";
+		display:table;
+	}
+	.group:after {
+		clear:both;
+	}
+	/* For IE 6/7 (trigger hasLayout) */
+	.group {
+		zoom:1;
+	}
+/* end clear children's floats */
+
+@mixin group{
+	&:before, &:after{
+		content:"";
+		display:table;
+	}
+	&:after {
+		clear:both;
+	}
+	zoom:1;
+}
+
+
+.clearb {clear:both;}
+.clearl {clear:left;}
+.clearr {clear:right;}

@@ -1,0 +1,13 @@
+@mixin circle{-webkit-border-radius:50%; -moz-border-radius: 50%; border-radius: 50%;}
+%circle {@include circle;}
+
+@mixin circle-icon($size, $bg-color, $fg-color) {
+        @include circle; @include border-box;
+        background-color: $bg-color; 
+        font-size: $size;
+        padding: $size/2;       
+        width: $size; 
+        height: $size; 
+        text-align: center; 
+        color: $fg-color; 
+        line-height: 0.9;}

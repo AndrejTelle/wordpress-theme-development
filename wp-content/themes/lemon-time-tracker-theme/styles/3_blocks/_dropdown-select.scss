@@ -1,0 +1,19 @@
+/* fake dropdown - select  - replacement for select element with html and css only  - created 11.3.15 by andrej telle*/
+
+%dropdown-style {@include rounded(3px, 3px, 3px, 3px); @include flexbox; border: solid 1px $neutral-dark; background:#fff; color:$txt-color; float:left;}
+.option-selected {@extend .icon-ok; 
+    &:before {color: $green; position:relative; top:7px; left:5px;}
+}
+%dropdown-text {@include flex(1 0 auto); padding:5px 3px 4px 6px;}
+%dropdown-style-icon {@extend .icon-chevron-down; @include rounded(0, 3px, 3px, 0); @include flex(0 0 auto); line-height:1.6; background:lighten($neutral,11); padding:4px 1px 3px 4px; border-left:solid 1px $neutral-dark; margin-left:3px;
+    &:before {vertical-align:baseline;}
+    }
+
+%dropdown-style:hover {
+    border-color: #7EB4EA; background:#fff; color:$txt-color;text-decoration:none;    
+    %dropdown-style-icon {@include linear-gradient(#ECF4FC, #DCECFC); border-left:#7EB4EA solid 1px; color:darken(#7EB4EA,15%);}
+}
+
+%dropdown-text-mini {@extend %dropdown-text; padding:2px 3px 0 6px;}
+%dropdown-style-icon-mini {@extend %dropdown-style-icon; padding:0 1px 0 4px; line-height:1.8;}
+%dropdown-style-icon-mini:before {position:relative; top:2px;}

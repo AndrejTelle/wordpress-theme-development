@@ -1,0 +1,3 @@
+/* circle number */
+
+@mixin number-circle($bg-color, $txt-color, $size) {@extend %circle, %primary-font; background:$bg-color; color:$txt-color; height:$size; width:$size; font-size:$size; font-weight:bold; text-align:center; display:inline-block; margin-right:0.3em;}

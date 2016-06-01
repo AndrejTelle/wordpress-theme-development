@@ -1,0 +1,2 @@
+a {color:$primary; text-decoration:none;}
+a:hover {background:lighten($primary,5); color:$txt-on-primary; text-decoration:none; cursor:handle;}

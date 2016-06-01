@@ -1,0 +1,102 @@
+/* datepicker - first edited on 9.9.2014 by andrej telle - teamaton.com */
+/*!
+ * Datepicker for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+.datepicker {@extend %rounded; @extend %shadow-no-top;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;  
+  padding:0;
+  margin-top: 2px;  
+  border:solid 2px $neutral-dark;
+  background:#fff;
+}
+
+.datepicker:before {
+  content: '';
+  display: inline-block;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid $neutral-dark;  
+  position: absolute;
+  top: -8px;
+  left: 5px;
+}
+.datepicker:after {
+  content: '';
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid lighten($neutral, 9);
+  position: absolute;
+  top: -5px;
+  left: 7px;
+}
+.datepicker > div {
+  display: none;
+}
+.datepicker table {
+  width: 100%;
+  margin: 0;
+}
+.datepicker thead tr {border-bottom:solid 1px $neutral;}
+.datepicker td,
+.datepicker th {
+  text-align: center;
+  padding:5px 10px 4px 10px;
+}
+.datepicker td.day:hover,
+.datepicker td span:hover  {
+  background: $secondary;
+  color:$txt-on-secondary;
+  cursor: pointer;
+}
+.datepicker td.day.disabled {
+  color: #eeeeee;
+}
+.datepicker td.old,
+.datepicker td.new {
+  color: #999999;
+}
+.datepicker td.active,
+.datepicker td.active:hover,
+.datepicker td span.active,
+.datepicker tdspan.active:hover {
+  background:$primary;
+  color:$txt-on-primary;
+}
+
+.datepicker td span.old {
+  color: #999999;
+}
+.datepicker th.switch {
+  width: 145px;
+}
+.datepicker th.next,
+.datepicker th.prev {
+  font-size: 2.5em;
+  line-height:1;
+  padding:0;
+}
+.datepicker th.next:hover,
+.datepicker th.prev:hover,
+.datepicker th.switch:hover{
+cursor:pointer;
+color:$primary;
+background:lighten($neutral, 25);
+}
+.datepicker td span {
+  display: block;
+  padding:8px 12px 7px 12px;
+  float: left;  
+  cursor: pointer;  
+}

@@ -1,0 +1,67 @@
+/* layout */
+
+.hide, .hidden, .myfunnyclass {display:none;}
+.show {display:block;}
+
+%hide-visually {
+position: absolute;
+width: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+height: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+padding: 0;
+margin: -1px;
+border: 0;
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.center {@extend %border-box; width: 960px; margin:0 auto; display:block;}
+
+@mixin border-box {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+%border-box {@include border-box;}
+
+.space-l-r {padding-left:12px; padding-right:12px;}
+.space-b-xl{padding-bottom:3em;}
+
+.space-all {padding:0 12px;}
+
+.container {@include group; @extend %border-box; width:984px; margin: 0 auto;}
+			
+.bx {@extend %border-box; @extend .space-all; float:left; }
+
+.bx100 {@extend .bx; width:100%;}
+.bx33 {@extend .bx; width:33.3333%;}
+.bx66 {@extend .bx; width:66.6666%;}
+.bx75 {@extend .bx; width:75%;}
+.bx50 {@extend .bx; width:50%;}
+.bx25 {@extend .bx; width:25%;}
+
+@mixin bx($width:auto, $padding:0 12px){
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	float:left; 
+	width:$width; 
+	padding:$padding;
+}
+
+/* fixed and fluid layout */
+
+@mixin fixed-left($width:150px) {
+	float:left;
+	width:$width;
+	margin-left:-$width;
+	position:relative;
+	left:$width;
+}
+
+@mixin fluid-right($spacing-left:150px){
+	float:left;
+	margin-left:$spacing-left;
+}
+
+.hd-action {float:left; margin-right:20px;}
+.hd-action + a {margin-top:2.8em; display:inline-block;}

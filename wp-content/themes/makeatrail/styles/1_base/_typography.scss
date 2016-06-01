@@ -1,0 +1,24 @@
+/* typography */
+
+body {color:$txt-color; line-height:1.6; font-size:0.9em;}
+
+h1, h2, h3, h4, h5, h6, legend {@extend %primary-font; font-weight:400; margin:0; padding:0.2em 0;}
+
+h1 {font-size:2.5em; font-weight:bold;}
+h2 {font-size:1.8em; padding-top:1em;}
+h3, legend {font-size:1.5em;padding-top:0.6em;}
+legend h3 {font-size:1.2em;padding-top:0.6em;}
+h4 {font-size:1.3em; padding-top:0.5em;}
+h5 {font-size:1.1em;}
+h6 {font-size:1em;}
+
+p {padding:0.8em 0 0.3em 0; margin:0;}
+
+strong, .strong {font-weight:bold;}
+em, .italic {font-style:italic;}
+
+.info {font-style:italic; color:lighten($txt-color,15);}
+
+@mixin hide-text {text-indent:-9875em; display:inline-block; width:0;}
+@mixin show-text {text-indent:0; display:inline-block; width:auto;}
+

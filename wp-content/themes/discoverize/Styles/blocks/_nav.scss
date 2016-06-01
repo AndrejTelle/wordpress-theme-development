@@ -1,0 +1,23 @@
+/* navigation */
+
+	.nav {float:left; list-style:none; margin:0; padding:0; text-transform:uppercase; position:relative;}
+	.nav li {float:left; padding:0; position:relative;}
+	.nav a, .mini-nav a {color:$txt-on-primary; padding:43px 16px 26px 15px; display:block; text-decoration:none; font-size:1.2em;}
+	
+	.nav > li:first-child > a {@extend .triangle; padding-right:42px;}
+	.nav > li:first-child > a:after {@include triangle-b(8px, $bg-body);right:18px; bottom:26px; top:53px;}
+	
+	.sub-nav {min-width:100%; text-transform:none; @extend .smooth-all; visibility:hidden; background:$primary; height:0; opacity:0; padding:0; list-style:none; position:absolute; width:auto; font-size:0.8em; margin:0; left:0; z-index:1015; min-width:200px;}
+	.sub-nav li {display:block; float:none; border:none;}
+	.sub-nav a {display:block; white-space:nowrap; padding-top:10px; padding-bottom:8px;}
+	
+	.nav > li:hover .sub-nav {visibility: visible; height:auto; opacity:1;}
+	
+	.active a, .nav a:hover, .mini-nav a:hover {background:$primary-lighter; color:$txt-on-primary; text-decoration:none;}
+
+	
+/* mini nav */	
+	.mini-nav {float:right; list-style:none; margin:0;}
+	.mini-nav a {padding:43px 8px 31px 8px; display:block; font-size:1em;}
+	.mini-nav li, .nav1 li {float:left; padding:0;}	
+	

@@ -1,0 +1,119 @@
+# Translation of Stable (latest release) in Hebrew
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-04 22:17:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: display-widgets.php:603
+msgid "Front"
+msgstr "עמוד ראשי"
+
+#: display-widgets.php:604
+msgid "Blog"
+msgstr "בלוג"
+
+#: display-widgets.php:605
+msgid "Archives"
+msgstr "ארכיון"
+
+#: display-widgets.php:606
+msgid "Single Post"
+msgstr "פוסט בודד"
+
+#: display-widgets.php:608
+msgid "Search"
+msgstr "חיפוש"
+
+#: display-widgets.php:339
+msgid "Pages"
+msgstr "עמודים"
+
+#: display-widgets.php:385
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: display-widgets.php:327
+msgid "Miscellaneous"
+msgstr "שונות"
+
+#: display-widgets.php:356
+msgid "Custom Post Types"
+msgstr "תוכן מותאם אישית"
+
+#: display-widgets.php:419
+msgid "Languages"
+msgstr "שפות"
+
+#: display-widgets.php:311
+msgid "Show Widget for:"
+msgstr "הצגת וידג'ט עבור:"
+
+#: display-widgets.php:313
+msgid "Everyone"
+msgstr "כולם"
+
+#: display-widgets.php:314
+msgid "Logged-out users"
+msgstr "משתמשים שאינם מחוברים"
+
+#: display-widgets.php:315
+msgid "Logged-in users"
+msgstr "משתמשים מחוברים"
+
+#: display-widgets.php:321
+msgid "Hide on checked pages"
+msgstr "להסתיר את המסומנים"
+
+#: display-widgets.php:322
+msgid "Show on checked pages"
+msgstr "להציג את המסומנים"
+
+#: display-widgets.php:369
+msgid "Custom Post Type Archives"
+msgstr "ארכיון תוכן מותאם אישית"
+
+#: display-widgets.php:380
+msgid "Archive"
+msgstr "ארכיון"
+
+#: display-widgets.php:389
+msgid "All Categories"
+msgstr "כל הקטגוריות"
+
+#. Plugin URI of the plugin/theme
+msgid "http://strategy11.com/display-widgets/"
+msgstr "http://strategy11.com/display-widgets/"
+
+#. Author URI of the plugin/theme
+msgid "http://strategy11.com"
+msgstr "http://strategy11.com"
+
+#. Author of the plugin/theme
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: display-widgets.php:403
+msgid "Taxonomies"
+msgstr "טקסונומיות"
+
+#: display-widgets.php:436
+msgid "Comma Separated list of IDs of posts not listed above"
+msgstr "הפרד בפסיקים רשימת מספרי ID של פוסטים שאינם מפורטים לעיל"
+
+#: display-widgets.php:733
+msgid "#%d (no title)"
+msgstr "#%d (ללא כותרת)"
+
+#. Plugin Name of the plugin/theme
+msgid "Display Widgets"
+msgstr "הצגת וידג'טים"
+
+#. Description of the plugin/theme
+msgid "Adds checkboxes to each widget to show or hide on site pages."
+msgstr "הוספת צ'ק-בוקס לכל וידג'ט כדי להציג או להסתיר אותו בעמודי האתר."

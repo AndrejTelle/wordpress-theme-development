@@ -1,0 +1,6 @@
+/* read more via - http://jedfoster.com/Readmore.js/ */
+
+.rm11 {@extend .icon-chevron-down; float:right; display:inline-block; padding-left:8em; margin-top:-1.6em; position:relative; z-index:100; background:#fff; @include linear-gradient-vertical(rgba(255, 255, 255, 0), #fff, 0%, 7.5em);}
+.rm11:hover {background:$primary; padding-left:0.2em;}
+.rm12 {@extend .icon-chevron-up;}
+

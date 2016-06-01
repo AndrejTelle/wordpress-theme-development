@@ -1,0 +1,42 @@
+/* layout */
+
+/* clearing floats */
+
+	%clear:before, %clear:after,{content: "."; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0;}
+
+	%clear:after,{clear: both;}
+
+	%clear{zoom: 1;}	
+
+	.clear-all {clear: both; display: block; overflow: hidden; visibility: hidden;  width: 0;  height: 0;}
+	.clear-l {clear:left;}
+	.clear-r {clear:right;}
+
+/* end clearing floats */
+
+.center {margin:0 auto; display:block;}
+
+%border-box { 
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box;         /* Opera/IE 8+ */
+			}
+
+.space-l-r {padding-left:12px; padding-right:12px;}
+.space-b-xl{padding-bottom:3em;}
+
+.space-all {padding:12px;}
+
+.container {@extend %clear, %border-box; width:984px; margin: 0 auto;}
+			
+.bx {@extend %border-box, .space-all; float:left; }
+
+.bx33 {@extend .bx; width:33.3333%;}
+.bx66 {@extend .bx; width:66.6666%;}
+.bx75 {@extend .bx; width:75%;}
+.bx50 {@extend .bx; width:50%;}
+.bx25 {@extend .bx; width:25%;}
+
+.wrapper {background:$bg-grey-transparent; padding:2em;}
+.wrapper-white {background:$bg-white-transparent; padding:2em;}
+

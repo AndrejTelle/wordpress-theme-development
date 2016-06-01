@@ -1,0 +1,38 @@
+/* popdrop (popdrop) via bootstrap - created by andrej telle on 17.2.2015 */
+
+// Prevent the focus on the popdrop toggle when closing popdrops
+.popdrop-toggle:focus {
+  outline: 0;
+}
+
+// The popdrop - element that opens with content inside 
+.popdrop {
+  @extend .wrapper;
+  @extend %shadow-all;
+  @include border-box;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none; // none by default, but block on "open" of the menu
+  float: left;
+  min-width: 280px;  
+  z-index:60;
+  margin-bottom:10px;
+}
+  
+// Open state for the popdrop
+.popdrop.popdrop-open {
+  display: block;
+  top: auto;
+  left: auto;
+}
+
+// Backdrop to catch body clicks on mobile, etc.
+.popdrop-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}

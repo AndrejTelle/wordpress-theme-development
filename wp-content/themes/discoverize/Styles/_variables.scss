@@ -1,0 +1,54 @@
+/* variables */
+
+/* colors */
+
+	$bg-body:#f3f3f3;
+
+	$primary: #0088cc;
+	$primary-darker: darken($primary, 5%);
+	$primary-lighter: lighten($primary, 5%);
+	$txt-on-primary: #fff;
+	$txt-shadow-on-primary:rgba(0, 0, 0, 0.25);
+
+	$secondary: #5bb75b;
+	$secondary-darker: darken($secondary, 5%);
+	$secondary-lighter: lighten($secondary, 5%);
+	$txt-on-secondary: #fff;
+	$txt-shadow-on-secondary:rgba(0, 0, 0, 0.25);
+
+	$neutral: #ddd;
+	$neutral-darker: darken($neutral, 5%);
+	$neutral-lighter: lighten($neutral, 5%);
+	$txt-on-neutral: #333;
+	$txt-shadow-on-neutral:rgba(255, 255, 255, 0.25);
+
+	$bg-grey-transparent:rgba(0,0,0, 0.05);
+	$bg-white-transparent:rgba(255,255,255, 0.1);
+
+	$txt-bg: #f4f4f4;
+	$txt-color: #555;
+
+	$dark-grey: #252525;
+
+	$green1: #C45DEA;
+
+	$blue1: #0BD4E3;
+
+	$purple1: #9849BA;
+
+	$orange1: #F6811E;
+	$txt-on-orange1: #fff;
+
+/* end colors */
+
+/* type */
+
+	body {font-family:verdana;}
+	/* Import Google Web Fonts*/
+	@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+	%primary-font {font-family: "open sans";}
+	
+	h1 {font-size:3em;}
+	h2 {font-size:2.3em;}
+	
+/* end type */

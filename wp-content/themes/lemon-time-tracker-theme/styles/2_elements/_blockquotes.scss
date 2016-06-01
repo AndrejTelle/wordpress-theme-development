@@ -1,0 +1,5 @@
+/* blockquotes */
+
+blockquote, %blockquote {@extend %primary-font; font-weight:100; line-height:1.5; font-style:italic; letter-spacing:0.01em; z-index:1; display:block; font-size:1.05em; margin:0;}
+	blockquote:before, %blockquote:before, q:before {content:"\201E" ; font-size:2em; line-height:0.1; display:inline;}
+	blockquote:after, %blockquote:after, q:after {content:"\201D" ; font-size:2em; position:relative; top:0.2em; display:inline; line-height:0.1; }

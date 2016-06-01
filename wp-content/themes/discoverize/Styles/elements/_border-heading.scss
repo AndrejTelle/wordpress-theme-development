@@ -1,0 +1,5 @@
+/* border heading */
+
+.border-heading {@extend .space-l-r; text-align:center; clear:left;}
+.border-heading span {background:$bg-body; z-index:5; position:relative; padding:0 12px;}
+.border-heading:after {@extend .indent-line; display:block; content:""; height:0; position:relative; top:-0.75em;}

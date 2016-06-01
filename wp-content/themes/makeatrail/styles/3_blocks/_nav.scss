@@ -1,0 +1,6 @@
+/* vertical navigation (content pages) */
+
+	.nav-vertical {@extend %list-clean; @include group; @extend .wrapper; @extend %shadow-small; padding:0; margin:0;}
+	.nav-vertical a {@extend .icon-chevron-right; padding:0.7em 0.4em 0.6em 0.7em; border-top:solid 1px $neutral; display:block;}
+	.nav-vertical .active a {background:$primary; color:$txt-on-primary;}
+	.nav-vertical li:first-child a {border-top:none;}

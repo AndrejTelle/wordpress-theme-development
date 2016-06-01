@@ -1,0 +1,36 @@
+/* lists */
+
+ul {padding-left:1em; list-style:outside;}
+li {padding-bottom:0.5em;}
+
+@mixin list-clean {padding:0; list-style:inside none;
+	li {
+		@include group;		
+		padding-bottom:0;
+	}
+}
+
+%list-clean {@include list-clean;}
+
+%list-no-bullets {
+	padding:0; list-style:inside none;
+	li {
+		@include group;		
+	}
+}
+
+@mixin list-no-bullets{
+	padding:0; list-style:inside none;
+	li {
+		@include group;
+	}
+}
+
+.list-checks {@extend %list-clean; @include group;
+	li {
+		@extend .icon-block; padding-bottom:1em;
+		a {
+			display:inline;
+		}
+	}
+}

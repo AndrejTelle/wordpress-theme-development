@@ -1,0 +1,37 @@
+/* flexbox styles - created 26.5.2015 by andrej telle for discoverize */
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+}
+
+@mixin flexdirection($values) {
+-webkit-flex-direction: $values;
+-ms-flex-direction: $values;
+flex-direction: $values;
+}
+
+@mixin flex($values: 0 1 auto) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+@mixin flexorder($val) {
+  -webkit-box-ordinal-group: $val;  
+  -moz-box-ordinal-group: $val;     
+  -ms-flex-order: $val;     
+  -webkit-order: $val;  
+  order: $val;
+}   
+
+@mixin flexwrap($val){
+  -webkit-flex-wrap: $val;
+  flex-wrap: $val;
+}
+

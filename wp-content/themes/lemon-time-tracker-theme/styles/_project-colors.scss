@@ -1,0 +1,132 @@
+    /* project colors*/
+
+        @mixin project-color($color:#0088cc,$txt-color:#fff){           
+            background:$color;
+            color:$txt-color;
+            &:hover {background:lighten($color,7); color:$txt-color;}          
+        }
+
+        $colours:
+            #227FB0 #fff,
+            #0e9bc9 #fff,
+            #12b3a2 #fff,
+            #00bf7c #fff,
+            #4eb545 #fff,
+            #7fb512 #fff,
+            #a1cc14 #fff,
+            #FBB735 #fff,
+            #E98931 #fff,
+            #EB403B #fff,
+            #B32E37 #fff,
+            #6C2A6A #fff,
+            #5C4399 #fff,
+            #274389 #fff,
+            #1F5EA8 #fff,
+
+            adjust-color(#227FB0, $hue:10, $lightness: -10) #fff,
+            adjust-color(#0e9bc9, $hue:10, $lightness: -10) #fff,
+            adjust-color(#12b3a2, $hue:10, $lightness: -10) #fff,
+            adjust-color(#00bf7c, $hue:10, $lightness: -10) #fff,
+            adjust-color(#4eb545, $hue:10, $lightness: -10) #fff,
+            adjust-color(#7fb512, $hue:10, $lightness: -10) #fff,
+            adjust-color(#a1cc14, $hue:10, $lightness: -10) #fff,
+            adjust-color(#FBB735, $hue:10, $lightness: -10) #fff,
+            adjust-color(#E98931, $hue:10, $lightness: -10) #fff,
+            adjust-color(#EB403B, $hue:10, $lightness: -10) #fff,
+            adjust-color(#B32E37, $hue:10, $lightness: -10) #fff,
+            adjust-color(#6C2A6A, $hue:10, $lightness: -10) #fff,
+            adjust-color(#5C4399, $hue:10, $lightness: -10) #fff,
+            adjust-color(#274389, $hue:10, $lightness: -10) #fff,
+            adjust-color(#1F5EA8, $hue:10, $lightness: -10) #fff,
+            
+            adjust-color(#227FB0, $hue:20, $lightness: -20) #fff,
+            adjust-color(#0e9bc9, $hue:20, $lightness: -20) #fff,
+            adjust-color(#12b3a2, $hue:20, $lightness: -20) #fff,
+            adjust-color(#00bf7c, $hue:20, $lightness: -20) #fff,
+            adjust-color(#4eb545, $hue:20, $lightness: -20) #fff,
+            adjust-color(#7fb512, $hue:20, $lightness: -20) #fff,
+            adjust-color(#a1cc14, $hue:20, $lightness: -20) #fff,
+            adjust-color(#FBB735, $hue:20, $lightness: -20) #fff,
+            adjust-color(#E98931, $hue:20, $lightness: -20) #fff,
+            adjust-color(#EB403B, $hue:20, $lightness: -20) #fff,
+            adjust-color(#B32E37, $hue:20, $lightness: -20) #fff,
+            adjust-color(#6C2A6A, $hue:20, $lightness: -20) #fff,
+            adjust-color(#5C4399, $hue:20, $lightness: -20) #fff,
+            adjust-color(#274389, $hue:20, $lightness: -20) #fff,
+            adjust-color(#1F5EA8, $hue:20, $lightness: -20) #fff,
+            
+            adjust-color(#227FB0, $hue:15, $lightness: -15) #fff,
+            adjust-color(#0e9bc9, $hue:15, $lightness: -15) #fff,
+            adjust-color(#12b3a2, $hue:15, $lightness: -15) #fff,
+            adjust-color(#00bf7c, $hue:15, $lightness: -15) #fff,
+            adjust-color(#4eb545, $hue:15, $lightness: -15) #fff,
+            adjust-color(#7fb512, $hue:15, $lightness: -15) #fff,
+            adjust-color(#a1cc14, $hue:15, $lightness: -15) #fff,
+            adjust-color(#FBB735, $hue:15, $lightness: -15) #fff,
+            adjust-color(#E98931, $hue:15, $lightness: -15) #fff,
+            adjust-color(#EB403B, $hue:15, $lightness: -15) #fff,
+            adjust-color(#B32E37, $hue:15, $lightness: -15) #fff,
+            adjust-color(#6C2A6A, $hue:15, $lightness: -15) #fff,
+            adjust-color(#5C4399, $hue:15, $lightness: -15) #fff,
+            adjust-color(#274389, $hue:15, $lightness: -15) #fff,
+            adjust-color(#1F5EA8, $hue:15, $lightness: -15) #fff,
+            
+            adjust-color(#227FB0, $hue:25, $lightness: -25) #fff,
+            adjust-color(#0e9bc9, $hue:25, $lightness: -25) #fff,
+            adjust-color(#12b3a2, $hue:25, $lightness: -25) #fff,
+            adjust-color(#00bf7c, $hue:25, $lightness: -25) #fff,
+            adjust-color(#4eb545, $hue:25, $lightness: -25) #fff,
+            adjust-color(#7fb512, $hue:25, $lightness: -25) #fff,
+            adjust-color(#a1cc14, $hue:25, $lightness: -25) #fff,
+            adjust-color(#FBB735, $hue:25, $lightness: -25) #fff,
+            adjust-color(#E98931, $hue:25, $lightness: -25) #fff,
+            adjust-color(#EB403B, $hue:25, $lightness: -25) #fff,
+            adjust-color(#B32E37, $hue:25, $lightness: -25) #fff,
+            adjust-color(#6C2A6A, $hue:25, $lightness: -25) #fff,
+            adjust-color(#5C4399, $hue:25, $lightness: -25) #fff,
+            adjust-color(#274389, $hue:25, $lightness: -25) #fff,
+            adjust-color(#1F5EA8, $hue:25, $lightness: -25) #fff,
+
+            adjust-color(#227FB0, $hue:5, $lightness: -5) #fff,
+            adjust-color(#0e9bc9, $hue:5, $lightness: -5) #fff,
+            adjust-color(#12b3a2, $hue:5, $lightness: -5) #fff,
+            adjust-color(#00bf7c, $hue:5, $lightness: -5) #fff,
+            adjust-color(#4eb545, $hue:5, $lightness: -5) #fff,
+            adjust-color(#7fb512, $hue:5, $lightness: -5) #fff,
+            adjust-color(#a1cc14, $hue:5, $lightness: -5) #fff,
+            adjust-color(#FBB735, $hue:5, $lightness: -5) #fff,
+            adjust-color(#E98931, $hue:5, $lightness: -5) #fff,
+            adjust-color(#EB403B, $hue:5, $lightness: -5) #fff,
+            adjust-color(#B32E37, $hue:5, $lightness: -5) #fff,
+            adjust-color(#6C2A6A, $hue:5, $lightness: -5) #fff,
+            adjust-color(#5C4399, $hue:5, $lightness: -5) #fff,
+            adjust-color(#274389, $hue:5, $lightness: -5) #fff,
+            adjust-color(#1F5EA8, $hue:5, $lightness: -5) #fff,
+
+            adjust-color(#227FB0, $hue:30, $lightness: -30) #fff,
+            adjust-color(#0e9bc9, $hue:30, $lightness: -30) #fff,
+            adjust-color(#12b3a2, $hue:30, $lightness: -30) #fff,
+            adjust-color(#00bf7c, $hue:30, $lightness: -30) #fff,
+            adjust-color(#4eb545, $hue:30, $lightness: -30) #fff,
+            adjust-color(#7fb512, $hue:30, $lightness: -30) #fff,
+            adjust-color(#a1cc14, $hue:30, $lightness: -30) #fff,
+            adjust-color(#FBB735, $hue:30, $lightness: -30) #fff,
+            adjust-color(#E98931, $hue:30, $lightness: -30) #fff,
+            adjust-color(#EB403B, $hue:30, $lightness: -30) #fff,
+            adjust-color(#B32E37, $hue:30, $lightness: -30) #fff,
+            adjust-color(#6C2A6A, $hue:30, $lightness: -30) #fff,
+            adjust-color(#5C4399, $hue:30, $lightness: -30) #fff,
+            adjust-color(#274389, $hue:30, $lightness: -30) #fff,
+            adjust-color(#1F5EA8, $hue:30, $lightness: -30) #fff,
+            ;
+
+        @each $i in $colours{
+          .project#{index($colours,$i)} {
+            background: nth($i, 1);
+            color: nth($i, 2);
+            &:hover {background:lighten(nth($i, 1),10); color:nth($i, 2);}
+          }
+        }
+
+
+    /* end project colors */

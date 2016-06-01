@@ -1,0 +1,97 @@
+/* css for responsive design - media queries for discoverize/marinas - created by andrej telle - teamaton.com */
+
+// scale header correctly
+    @media only screen and (max-width: 1266px) {            
+        .header2 {width:auto;}
+        }
+
+/* below 984 */
+    @media only screen and (max-width: 1024px) {            
+        .main, .header {padding:0 20px;}
+        
+        .main, .header {width:100%;}
+        .header2 {width:auto;}                
+
+        footer {font-size:0.8em;}
+        .footer1 {padding-left:8px; padding-right:8px;}
+    }
+
+/* below 768px */
+@media only screen and (max-width:769px ) {
+    .logo-name, .tagline {display:none;}
+    .main {margin-top:0; padding: 0 5px;}
+    .global-help {display:none;}
+    .as1312 {position:absolute; left:-10000px;}
+    .hd31 {display:none;}
+    .header1, .header2, .header3 {@include flex(1 1 auto);}
+    .rc3 {width:40px; overflow:hidden;}
+}
+
+/* below 640 */
+@media only screen and (max-width:640px ) {
+    .rc3, .rc4 {@include flex(0 1 auto); width:40px; overflow:hidden;}
+    .rc2 {@include flex(1 0 auto);}
+    // show team and person in 2 lines
+    .as12, .as16 {float:none !important; display:block !important;}
+    .as12:not(:only-of-type) a, .as16 a {padding-top:4px !important; padding-bottom:3px !important;}
+}
+
+/* below 480px */
+@media only screen and (max-width: 479px) {
+    .main {font-size:0.9em;}
+    .sg01 {display:none;}    
+    .sg21, .sg22, .sg23, .sg24 {padding-right:0;}
+
+    // hide team text header
+    .as160 {display:none;}
+
+    // show full width records 
+    .record {margin:0;}
+}
+
+/* below 320px */
+@media only screen and (max-width: 320px) {
+    .logo {display:none;}
+
+    .tt1 {font-size:1.6em;}
+    .tt-status strong {font-size:0.9em;}
+
+    .record-day {font-size:1.2em;}
+    .record {margin:0 8px; font-size:0.8em;}    
+    .rc2 {@include flex(1 1 auto); width:65px; overflow:hidden;}
+    .record-edit-trigger {padding:4px 6px;}
+    .record.active {        
+        a {min-height:70px;}        
+        .rc6 {width:50px; overflow:hidden;}
+        .rc63, .rc62 {width:53px; min-height:70px; font-size:1.5em;}
+        .rc63 {left:-3px; top:-1px;}
+        .rc631:before, .rc632:before {left:7px; top:15px;}
+    }
+
+    
+
+    // forms
+
+    textarea, input {width:auto;}
+}
+
+// flyout respond
+
+    @media only screen and (max-width: 1120px) {
+        .flyout-level-3 .navigation {display:none;}
+        .flyout-backdrop, .flyout-modal {margin-top:0}
+    }
+
+    @media only screen and (max-width: 850px) {
+        .flyout-level-3 .sub-nav {display:none;}
+    }
+
+    @media only screen and (max-width: 620px) {
+        .flyout-level-2 .navigation {display:none;}
+        .flyout-level-3 {
+            .navigation {display:none;}
+            .sub-nav {display:none;}
+            }
+    }
+
+// end flyout

@@ -1,0 +1,23 @@
+/* tabs */
+
+	.tabs {list-style:none; overflow:visible; @include group; padding:0; margin-bottom:0;}
+	.tabs li {float:left; padding:0;}
+	.tabs a {@extend %rounded-t; margin:4px 10px 0 0; padding: 3px 8px 1px 8px; font-size:1.2em; background:$neutral-lighter; border:solid 1px darken($neutral,10); border-bottom:none; display:block;}
+	.tabs li.active {position:relative; top:1px; z-index:2;}
+	.tabs li.active a, .tabs li.active:hover a {background:#fff; margin-top:0; padding-top:6px; padding-bottom:2px; color:#333;}
+	.tabs li:hover a {background:$primary; color:$txt-on-primary;}
+	
+	.tab-content {border:solid 1px $neutral; background:#fff; clear:both; padding:8px;}
+
+/* vertical tabs with jquery ui classes */
+
+	.tabs-vertical {@extend %list-clean; @include group; float:left; max-width:200px; margin-top:0.6em; margin-bottom:1em;}
+	.tabs-vertical a {padding:8px; margin-left:8px; background:#e5e5e5; border:solid 1px darken($neutral,10); border-right:none; border-bottom:none; display:block;}	
+	.tabs-vertical li:last-child a {border-bottom:solid 1px darken($neutral,10);}
+	.tabs-vertical a:hover {color:$txt-on-primary; background:$primary;}
+	.tabs-vertical .active a, .tabs-vertical .active a:hover {padding-left:14px; right:-1px; position:relative; z-index:5; margin-left:0; background:#f4f4f4; @extend %rounded-l; border-bottom:solid 1px darken($neutral,10); color:#333;}
+	
+	.tabs-vertical-content {float:left; border: solid 1px darken($neutral,10); background:#f4f4f4; padding:8px; display:none; min-height:350px; margin-bottom:1em;}
+	.tabs-vertical-content.active {display:block;}
+	
+	

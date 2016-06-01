@@ -1,0 +1,7 @@
+/* border heading */
+
+.indent-line {border-top: solid 1px #bbb; border-bottom: solid 1px #fff;}
+
+.border-heading {text-align:center; clear:left; z-index:-1;}
+.border-heading span {background:$bg-body; z-index:5; position:relative; padding:0 0.6em; display:inline-block;}
+.border-heading:after {@extend .indent-line; display:block; content:""; height:0; position:relative; top:-0.75em;}

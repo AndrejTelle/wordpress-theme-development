@@ -1,0 +1,748 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backg",
+				"background-color: "
+			],
+			[
+				"opac",
+				"opacify	Sass-function"
+			],
+			[
+				"icon-lemon-bi",
+				"icon-lemon-bite-round"
+			],
+			[
+				"octary",
+				"octary-contrast"
+			],
+			[
+				"prim",
+				"primary-fit"
+			],
+			[
+				"second",
+				"secondary-font"
+			],
+			[
+				"box-left",
+				"box-left-25"
+			],
+			[
+				"icon-cl",
+				"icon-clock-full"
+			],
+			[
+				"table",
+				"table-striped"
+			],
+			[
+				"icon-arro",
+				"icon-arrow-right"
+			],
+			[
+				"icon-chev",
+				"icon-chevron-down"
+			],
+			[
+				"line",
+				"linear-gradient"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_custom.scss",
+			"settings":
+			{
+				"buffer_size": 30100,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "3_blocks/_messages.scss",
+			"settings":
+			{
+				"buffer_size": 992,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packe",
+				"Package Control: Disable Package"
+			],
+			[
+				"packed",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"add fo",
+				"Project: Add Folder"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"create",
+				"Gist: Create Private Gist"
+			],
+			[
+				"fe",
+				"Fetch: Manage"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projects/timetracker/TimeTracker.Web/Styles",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/icon-fonts",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/icon-fonts/demo-files"
+	],
+	"file_history":
+	[
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_icon-font-settings.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_icon-fonts.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_icons.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_flexbox.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_border-heading.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_respond.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_lists.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_typography.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/timetracker.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_imports.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/timetracker.css",
+		"/C/projects/discoverize/Gruntfile.js",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_tag-icons.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_buttons.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/icon-fonts/style.css",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_project-colors.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_circle.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_colors.scss",
+		"/C/Users/jeni/Desktop/_temp/lemon timetracker.htm",
+		"/C/projects/lemon-marketing/user/themes/lemonize/templates/base.html.twig",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_sticky-footer.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_transitions.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_layout.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_flexbox.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_flex.scss",
+		"/C/projects/timetracker/grunt-watch-css.bat",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_popover.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_triangle.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_wrapper.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_shadows.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_popdrop.scss",
+		"/C/projects/timetracker/Gruntfile.js",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/1_base/_transform.scss",
+		"/C/projects/lemon-marketing/user/themes/lemonize/css/lemonize.scss",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/lemonize/templates/partials/base.html.twig",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_tables.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_dropdown-menu.scss",
+		"/C/projects/teamaton.com/Homepage/Content/layout.scss",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/antimatter/templates/partials/base.html.twig",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/lemonize/css/lemonize.css",
+		"/C/projects/lemon-marketing/package.json",
+		"/C/projects/lemon-marketing/Gruntfile.js",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/antimatter/templates/partials/navigation.html.twig",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/antimatter/blueprints.yaml",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/lemonize/templates/base.html.twig",
+		"/C/projects/lemon-marketing-grav-admin/user/accounts/andrej.yaml",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/antimatter/templates/default.html.twig",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/lemonize/lemonize.yaml",
+		"/C/projects/lemon-marketing-grav-admin/user/themes/lemonize/css/custom.css",
+		"/C/Users/jeni/Desktop/_temp/bootstrap-dropdown/css/bootstrap.css",
+		"/C/Users/jeni/Desktop/_temp/bootstrap/css/bootstrap.css",
+		"/C/projects/teamaton.com/NewHomepage/Content/layout.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/timetracker.sublime-workspace",
+		"/C/projects/teamaton.com/NewHomepage/Content/_icon-fonts.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_popups.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_forms-new.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_indent-line.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/2_elements/_rounded-corners.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_loading.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_tabs.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_flyout-menu.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/3_blocks/_nav.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/base/_lists.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/base/_layout.scss",
+		"/C/projects/Camping.Info/Frontend.Web.CampingInfo/style/icon-fonts/style.css",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/base/_flex.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_triangle.scss",
+		"/C/Users/jeni/Desktop/_temp/bootstrap-3.3.1-dist/dist/css/bootstrap.css",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/blocks/_popover.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/blocks/_messages.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_buttons.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_circle.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_rotate.scss",
+		"/C/Users/jeni/Desktop/_temp/icomoon/demo.html",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_shadows.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/blocks/_nav.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_icons.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/base/_spacing.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/blocks/_forms-new.scss",
+		"/C/Users/jeni/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jeni/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/jeni/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/projects/timetracker/TimeTracker.Web/Views/Home/Index.cshtml",
+		"/C/projects/timetracker/TimeTracker.Web/Views/_ViewStart.cshtml",
+		"/C/projects/timetracker/TimeTracker.Web/Views/Shared/_Layout.cshtml",
+		"/C/projects/dz.com with orchard/Orchard/Themes/Metropolize/Styles/discoverize.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/base/_typography.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_border-heading.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/elements/_indent-line.scss",
+		"/C/Users/jeni/Desktop/_temp/sticky-footers-the-flexible-way/sticky-footers-the-flexible-way/simple.html",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/blocks/_popups.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/blocks/_crumbtrail.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/blocks/_ratings.scss",
+		"/C/Users/jeni/Desktop/_temp/pure-release-0.5.0/pure-release-0.5.0/base.css",
+		"/C/Users/jeni/Desktop/_temp/pure-release-0.5.0/pure-release-0.5.0/grids.css",
+		"/C/Users/jeni/Desktop/_temp/pure-release-0.5.0/pure-release-0.5.0/pure.css",
+		"/C/Users/jeni/Desktop/_temp/pure-release-0.5.0/pure-release-0.5.0/pure-min.css",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_custom.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_reset.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_typography.scss",
+		"/C/projects/timetracker/TimeTracker.Web/Styles/_respond - backup.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Architekten/Styles/architekten.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/_custom.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/blocks/_datepicker.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Wohnwagen/Styles/wohnwagen.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Stellplatz/Styles/stellplatz.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/elements/_shadows.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/elements/_rounded-corners.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/_imports.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Architekten/Styles/architekten.css",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/blocks/_gallery.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/blocks/_dropdown.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/base/_typography.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/_icon-fonts.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Caravanmarkt/Styles/caravanmarkt.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Modules/Discoverize.Management/Styles/portalmanagement.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Modules/Discoverize.Management/Styles/_bootstrap-for-dz-manage.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/base/_spacing.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/icon-fonts/style.css",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/elements/_circle.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Yogastudios/Styles/yogastudios.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/base/_transitions.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/elements/_buttons.scss",
+		"/C/Users/jeni/Desktop/_temp/blogpost17.html",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Guestport/Styles/guestport.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/kinderhotel/Styles/kinderhotel.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Marinas/Styles/marinas.scss",
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Beautify/Styles/beautify.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\projects\\timetracker\\TimeTracker.Web\\Styles",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"roject16",
+			"proje",
+			"project16",
+			"cursor",
+			"pointer",
+			"();}",
+			"record-edi",
+			" }",
+			"tag33",
+			"tag333",
+			"tag33",
+			".tag",
+			"tag",
+			"tag3",
+			".icon",
+			":before",
+			".icon",
+			" ,",
+			"{\n}",
+			"^.*'{'.*\\n",
+			"^.*\"{\".*\\n",
+			"}",
+			"{ }",
+			"^.*{.*\\n",
+			"^.*content.*\\n",
+			"\n",
+			"^.*content*\\n",
+			"tag",
+			"project",
+			"primar",
+			"hp1",
+			"heading",
+			"hp211",
+			"; ",
+			"prefiner",
+			"hp1",
+			"bold",
+			"2s",
+			"record-dele",
+			"transition",
+			"a, button",
+			".main",
+			"record",
+			";}",
+			"header2",
+			"header",
+			".main",
+			"flexbox",
+			".main",
+			"group",
+			"header",
+			"footer",
+			"icon-l",
+			"transi",
+			";}\n",
+			"transi",
+			"transition",
+			".active",
+			";}",
+			"active",
+			".active",
+			"button-primary",
+			"button-secondary",
+			"triangle",
+			".main",
+			"footer",
+			"/* sticky footer via http://pixelsvsbytes.com/blog/2011/09/sticky-css-footers-the-flexible-way/ */",
+			"octary",
+			"small",
+			"/*!",
+			"border-box",
+			"header",
+			"tagline",
+			"$primary",
+			"body",
+			"font",
+			"header-wra",
+			"str",
+			"8px",
+			":before {",
+			"666",
+			".logo",
+			":before {",
+			"header",
+			"navigation",
+			";}",
+			"fl33",
+			"tag2",
+			"tt",
+			"(#",
+			"\n	",
+			"rp5",
+			"project",
+			"; ",
+			"button",
+			"@extend %font-icon",
+			"blocks",
+			"elements",
+			"base",
+			"*/\n",
+			"43px",
+			".record",
+			"005",
+			"week",
+			"current",
+			"rc4",
+			"record-edit",
+			"button-",
+			"record-edit",
+			"icon-clock-o",
+			"255",
+			";}",
+			"min-heig",
+			".site",
+			"100",
+			"100vh",
+			"textarea",
+			"b",
+			"filter",
+			"overall",
+			"time",
+			"border",
+			"@extend %list-clean;",
+			"group",
+			"flex",
+			":\"#\";}",
+			"icon-info",
+			"themes/neutral/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"icon",
+			"",
+			"icon",
+			",",
+			"",
+			",",
+			"",
+			"hst",
+			"dsg",
+			"sft",
+			"$size",
+			":before {@include font-icon;",
+			"(change-color(#",
+			"@include font-icon",
+			"3_blocks",
+			"2_elements",
+			"1_base",
+			"icon-clock-full",
+			"0",
+			"",
+			":before {@extend %font-icon;",
+			"#666666",
+			"5px",
+			"2px",
+			"3px",
+			"10",
+			":before {@extend %font-icon; ",
+			"Merriweather",
+			":before {@extend %font-icon; ",
+			".icon-star2",
+			":before {@extend %font-icon;",
+			"1",
+			"4",
+			":before {@extend %font-icon;",
+			"",
+			":before {@extend %font-icon;",
+			"",
+			":before {@extend %font-icon;",
+			"",
+			":before {@extend %font-icon;",
+			"{@extend %font-icon;",
+			"hd",
+			"th",
+			"{@extend %font-icon;",
+			"icon-th-list",
+			"    ",
+			"{@extend %font-icon; ",
+			"icomoon"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13813,
+								13813
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3605.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "3_blocks/_messages.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "timetracker.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lis",
+				"1_base\\_lists.scss"
+			],
+			[
+				"tim",
+				"timetracker.css"
+			],
+			[
+				"time",
+				"timetracker.css"
+			],
+			[
+				"circle",
+				"Styles\\elements\\_number-circle.scss"
+			],
+			[
+				"cust",
+				"Styles\\_custom.scss"
+			],
+			[
+				"form",
+				"neutral\\Styles\\blocks\\_forms.scss"
+			],
+			[
+				"sha",
+				"neutral\\Styles\\elements\\_shadows.scss"
+			],
+			[
+				"stellplatz",
+				"Stellplatz\\Styles\\stellplatz.scss"
+			],
+			[
+				"demo",
+				"neutral\\Styles\\icon-fonts\\demo.html"
+			],
+			[
+				"shad",
+				"neutral\\Styles\\elements\\_shadows.scss"
+			],
+			[
+				"button-gro",
+				"neutral\\Styles\\blocks\\_button-group.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "di",
+		"selected_items":
+		[
+			[
+				"di",
+				"C:\\projects\\discoverize\\src\\Orchard.Web\\Themes\\discoverize.sublime-project"
+			],
+			[
+				"word",
+				"C:\\projects\\wordpress-bitnami\\apps\\wordpress\\htdocs\\sublime-wordpress-bitnami.sublime-workspace"
+			],
+			[
+				"dis",
+				"C:\\projects\\discoverize\\src\\Orchard.Web\\Themes\\discoverize.sublime-project"
+			],
+			[
+				"",
+				"C:\\projects\\discoverize\\src\\Orchard.Web\\Themes\\themes.sublime-project"
+			],
+			[
+				"camp",
+				"C:\\projects\\Camping.Info\\Frontend.Web.CampingInfo\\style\\camping-info.sublime-project"
+			],
+			[
+				"cam",
+				"C:\\projects\\Camping.Info\\Frontend.Web.CampingInfo\\style\\camping-info.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

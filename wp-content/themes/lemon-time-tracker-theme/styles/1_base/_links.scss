@@ -1,0 +1,8 @@
+/* Links -------------------------------------------------------------------*/
+
+	a {color:$primary; text-decoration:none; }
+	a:hover {background:lighten($primary,5); color:$txt-on-primary; text-decoration:none; cursor:pointer;}
+		
+	a.no-link {color:#222; font-weight:normal;}
+	a.no-link:hover {cursor:default; text-decoration:none !important;}
+	a.in-header {font-size:1em;}	    

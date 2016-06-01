@@ -1,0 +1,15 @@
+/* rounded corners */
+	
+	@mixin rounded($top-left:0.3em, $top-right:0.3em, $bottom-right:0.3em, $bottom-left:0.3em) {
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+		border-radius: $top-left $top-right $bottom-right $bottom-left; 
+		-moz-border-radius: $top-left $top-right $bottom-right $bottom-left ; 
+		-webkit-border-top-left-radius:$top-left;
+		-webkit-border-top-right-radius:$top-right; 		
+		-webkit-border-bottom-right-radius:$bottom-right; 
+		-webkit-border-bottom-left-radius:$bottom-left;	
+	} 	
+	
+/* end rounded corners */

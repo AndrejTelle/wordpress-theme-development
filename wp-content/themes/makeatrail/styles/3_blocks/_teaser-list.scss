@@ -1,0 +1,32 @@
+/* teaser-list */
+
+@mixin teaser-list($number-of-elements-per-row:2, $padding:12px){	
+	@include group;
+	@include list-no-bullets;
+	margin-top:0;
+	li {
+		@include bx;
+		width: 100%/$number-of-elements-per-row;
+		padding-left:$padding/2;
+		padding-right:$padding/2;
+		padding-top:0;
+	}
+	li:nth-child(n-1) {
+		padding-left:$padding/2;
+		padding-right:$padding/2;
+		clear:none;
+	}
+	li:nth-child(#{$number-of-elements-per-row}n+1) {
+		padding-left:0; 
+		padding-right:$padding;
+		clear:left;
+	}
+	li:nth-child(#{$number-of-elements-per-row}n) {
+		padding-right:0;
+		padding-left:$padding;
+	}
+}
+
+%teaser-list-3 {@include teaser-list(3);}
+%teaser-list-4 {@include teaser-list(4);}
+%teaser-list-6 {@include teaser-list(6);}

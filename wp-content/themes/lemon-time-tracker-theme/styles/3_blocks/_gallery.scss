@@ -1,0 +1,30 @@
+/* big gallery */
+
+	.gallery {position:relative;}
+	.g-image {margin:0 60px;}
+	.g-image div {display:none;}
+	.g-image img {border:solid 1px #ddd; margin:0 auto; display:block;}
+	.g-caption {margin-left:60px; margin-right:60px;}
+	.g-previous, .g-next {position: absolute;
+	  top: 48%;
+	  left: 0;
+	  width: 40px;
+	  height: 40px;
+	  margin-top: -20px;
+	  font-size: 60px;
+	  font-weight: 100;
+	  line-height: 30px;
+	  color: #fff;
+	  text-align: center;
+	  background: #bbb;
+	  border: 3px solid #888;
+	  -webkit-border-radius: 23px;
+		 -moz-border-radius: 23px;
+			  border-radius: 23px;		  		 
+	}
+
+	.g-next {right: 0; left: auto;}
+
+	.previous:hover, .next:hover {color: #ffffff; text-decoration: none;}
+
+/* end big gallery */

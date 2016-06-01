@@ -1,0 +1,13 @@
+/* pager */
+
+	.pager {@extend %button-group-list; @extend %list-clean; @extend %rounded; @include group; background:#eee; border-top:solid 1px $neutral-dark; border-bottom:solid 1px $neutral-dark;}
+	.pager a {padding:0.5em 0.8em; margin-bottom:-1px; margin-top:-1px;}
+	.pager a.disabled, .pager a.disabled:hover {background:#eee; cursor:default; color:#999; }
+	.pager .page-fill a {padding:0.5em 0.1em;}
+	li.page-next {float:right; border-left:solid 1px #999;}
+	.pager .current {background: $primary; color:$txt-on-primary;}
+	.page-next span, .page-previous span {@extend %hide-text;}	
+	.page-previous a {@extend .icon-chevron-left; padding:0.5em 1.5em;}
+	.page-next a {@extend .icon-chevron-right; padding:0.5em 1.5em;}
+
+/* end pager */

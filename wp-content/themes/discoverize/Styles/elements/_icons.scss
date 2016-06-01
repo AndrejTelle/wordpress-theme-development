@@ -1,0 +1,22 @@
+%icon-space-l:before {position:relative; left:-8px;}
+
+%icon-64:before {font-size:64px;}
+
+%icon-small:before {width:18px; display:inline-block;}
+
+%icon-50:before {width:50px; display:inline-block;}
+
+/* circle icon */
+
+	@mixin circle-icon($size, $bg-color, $fg-color) {
+		@extend %circle, %border-box;
+		background-color: $bg-color; 
+		font-size: $size/2;
+		padding: $size/4; 		
+		width: $size; 
+		height: $size; 
+		text-align: center; 
+		color: $fg-color; 
+		line-height: 0.9;}
+
+/* end circle icon */

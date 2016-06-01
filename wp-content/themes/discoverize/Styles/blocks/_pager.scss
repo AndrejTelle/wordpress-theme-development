@@ -1,0 +1,11 @@
+/* pager */
+
+	.pager {border:1px solid #999; padding:0; border-right:none; background:#F5F5F5; margin:8px 0 0 8px;}
+	.pager li  {float:left;}
+	.pager a {@include linear-gradient(#f9f9f9, #ddd); border-right:solid 1px #999;  display:block; float:left; padding:5px 10px;}
+	.pager a:hover, .pager a.current {background:$primary; color:$txt-on-primary; text-decoration:none;}
+	.pager a.disabled, .pager a.disabled:hover {background:#eee; cursor:default; color:#999;}
+	li.page-next {float:right; border-left:solid 1px #999;}
+	.page-next a, .page-previous a {font-size:2em; line-height:1; padding:0 20px 2px 20px;}	
+
+/* end pager */

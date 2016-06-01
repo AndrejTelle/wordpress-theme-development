@@ -1,0 +1,56 @@
+/* transitions */
+
+@function prefix($property, $prefixes: (webkit moz o ms)) {
+    $vendor-prefixed-properties: transform background-clip background-size;
+    $result: ();
+    @each $prefix in $prefixes {
+       @if index($vendor-prefixed-properties, $property) {
+         $property: -#{$prefix}-#{$property}
+       }
+       $result: append($result, $property);
+    }
+    @return $result;
+}
+
+@function trans-prefix($transition, $prefix: moz) {
+    $prefixed: ();
+    @each $trans in $transition {
+        $prop-name: nth($trans, 1);
+        $vendor-prop-name: prefix($prop-name, $prefix);
+        $prop-vals: nth($trans, 2);
+        $prefixed: append($prefixed, ($vendor-prop-name $prop-vals), comma);
+    }
+    
+    @return $prefixed;
+}
+
+
+@mixin transition($values...) { 
+    $transitions: ();
+    @for $j from 1 through length($values) {
+        $declaration: nth($values, $j);
+        $prop: nth($declaration, 1);
+        $prop-opts: ();
+        $length: length($declaration);
+        @for $i from 2 through $length {
+            $prop-opts: append($prop-opts, nth($declaration, $i));   
+        }
+        $trans: ($prop, $prop-opts);
+        $transitions: append($transitions, $trans, comma);
+    }
+      
+    -webkit-transition: trans-prefix($transitions, webkit);
+    -moz-transition: trans-prefix($transitions, moz);
+    -o-transition: trans-prefix($transitions, o);
+    transition: $values;
+}
+
+.smooth {@include transition(transform 0.2s ease-in 0.2s, opacity 0.2s ease);}
+ @mixin transition-all {-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease; transition: all .5s ease;}
+ .smooth-all {@include transition-all;}
+
+.collapsing *, .collapsing blockquote, .collapsing p {height: 0; display:none;}
+
+// for hiding and showing things with transitions
+.hide-transition {visibility:hidden; @include opacity(0); transition: opacity .0s ease .0s;}
+.show-transition {visibility:visible; @include opacity(100); transition: opacity .2s ease .4s; }

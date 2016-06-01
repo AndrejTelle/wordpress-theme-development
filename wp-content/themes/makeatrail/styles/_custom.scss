@@ -1,0 +1,47 @@
+/* default theme for discoverize.com portal - created 16.10.12 - author: andrej telle - teamaton.com */
+
+
+
+/* typography */
+
+    body {font-family:open sans, trebuchet ms, sans-serif;}
+    /* Import Google Web Fonts*/
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+    @import url(https://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600);
+    @mixin primary-font {font-family:"open sans", sans serif; font-weight:400;}
+    @mixin secondary-font {font-family:"exo 2", sans serif; font-weight:400;}
+    %primary-font {@include primary-font;}
+    %secondary-font {@include secondary-font;}
+
+/* end typography */
+    
+
+/* import scss files via discoverize default theme */
+    
+    @import "imports";
+    
+/* end import */
+
+/* layout */
+    
+    html, body {height:100%;}
+    body {background:$bg-body;}
+    header {}
+    .header {@extend .center; @include group; }
+    .main {@extend .container; @extend %border-box; margin-top:2em; margin-bottom:4em;}
+    footer {@extend .center;}
+
+
+    .box-left {float:left; margin-bottom:18px;}
+
+    .box-left-25 {@extend .box-left; width:23%;
+        &:nth-child(4n + 1) {margin-left:0; margin-right:1.3333333%;}
+        &:nth-child(4n + 2) {margin-left:1.3333333%; margin-right:1.3333333%;}
+        &:nth-child(4n + 3) {margin-left:1.3333333%; margin-right:1.3333333%;}
+        &:nth-child(4n) {margin-right:0; margin-left:1.3333333%;}
+        }
+
+/* end layout */
+
+/* header */
+

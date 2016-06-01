@@ -1,0 +1,51 @@
+/* tooltip, dropdownbox und modal ---------------------------------------------------------------------*/
+
+	.ui-widget-overlay, .underlay {background:#fff; opacity:0.8;height: 100%; left: 0; position: fixed; top: 0; width: 100%;}
+	
+	/* drop down boxes */
+	.ddbox {@extend %shadow-no-top; display:none; z-index: 1000; background:#fff; border:solid 1px $neutral-dark; min-width:250px;}
+	
+	/* for multiple choice */
+	.mcbox {@extend %shadow-no-top; display:none; background:lighten($neutral, 9); border:solid 1px $neutral-dark; padding:0.8em 0.8em 0 0.8em; background:#fff; z-index:10000;}
+	
+    .tooltip, .modal-box {@extend .wrapper; @include group; @extend %shadow-all; padding-top:12px; display:none; width:200px; z-index:120010; border:solid 2px $neutral-dark; position:relative; margin-bottom:1em;}
+	.tooltip-medium, .modal-box-medium {@extend .modal-box; width:275px;}
+    .tooltip-large, .modal-box-large {@extend .modal-box; width:350px;}
+    .tooltip-xl, .modal-box-xl {@extend .modal-box; width:500px;}
+	.tooltip-xxl, .modal-box-xxl {@extend .modal-box; width:590px;}
+    .tooltip.auto {width:auto;}
+	
+	@mixin popup($width:300px, $height:300px) {@extend .modal-box; width:$width; height:$height;}
+    
+/* popups via manage*/
+		
+	.modal {display: none; overflow: auto; overflow-y: scroll; position: fixed; top: 0; right: 0; bottom: 0;  left: 0;  z-index:1040; width:auto; background:none; border:none;}	
+	.modal-title {border-bottom:solid 1px #ddd; margin-bottom:1em;}
+	.modal-dialog { width:600px; margin:0 auto; z-index:1050; padding:30px 0; margin-top:3em;}
+	.modal-content {@extend .wrapper; @include group; @extend %shadow-all; position:relative;}
+	.modal-content form {margin-bottom:0; text-align:left; padding:0; border:none; box-shadow:none;}
+	.modal-content .form-actions {margin-bottom:0; padding-bottom:0;}
+	button.close {color:#999; font-weight:bold; padding:0.2em 0.5em 1em; border:none; font-size:2em; position:absolute; top:0; right:0; background:none;}	
+	.info-icon {@include opacity(80); margin-left:0.3em;}
+	.tooltip {border:solid 2px #ddd; background:#fff; padding:8px 8px 2px 8px; display:none; min-width:150px; font-size:1em;}		
+
+/* end popups */
+
+.collapse {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+     -moz-transition: height 0.35s ease;
+      -ms-transition: height 0.35s ease;
+       -o-transition: height 0.35s ease;
+          transition: height 0.35s ease;
+}
+
+.collapse.in {
+  height: auto;
+}
+
+.modal-backdrop {@include opacity(60); position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index:1000; background-color: #000;}
+
+@mixin modal($width:560px) {@extend .wrapper; @extend %shadow-all; max-height:88%; overflow-y:auto; overflow-x:hidden; position: fixed; display:none; top: 10%; left: 50%; z-index: 12000; width: $width; margin-left: -$width/2; outline: none;}

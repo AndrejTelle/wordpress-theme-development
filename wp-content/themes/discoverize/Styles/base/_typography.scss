@@ -1,0 +1,20 @@
+/* typography */
+
+body {color:$txt-color; line-height:1.6; font-size:0.9em;}
+
+h1, h2, h3, h4, h5 {@extend %primary-font; font-weight:400; margin:0;}
+
+h1 {font-size:3.2em; padding:0.8em 0 0.3em 0;}
+h2 {font-size:2.5em; padding:0.8em 0 0.3em 0;}
+h3 {font-size:1.7em; padding:0.8em 0 0 0;}
+h4 {font-size:1.5em; padding-top:1em;}
+h5 {font-size:1.3em; padding-top:1em;}
+
+p {padding:0.8em 0 0.3em 0; margin:0;}
+
+strong, .strong {font-weight:bold;}
+em, .italic {font-style:italic;}
+
+
+
+	

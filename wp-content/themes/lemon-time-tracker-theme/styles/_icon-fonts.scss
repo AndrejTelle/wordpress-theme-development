@@ -1,0 +1,1376 @@
+/* icon fonts - icomoon via icomoon */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('icon-fonts/fonts/icomoon.eot');
+	src:url('icon-fonts/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('icon-fonts/fonts/icomoon.ttf') format('truetype'),
+		url('icon-fonts/fonts/icomoon.woff') format('woff'),
+		url('icon-fonts/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin font-icon {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	margin-right:0.3em;
+	width:1em;
+	display:inline-block;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+}
+
+%font-icon-right{
+	margin-right:0;
+	margin-left:0.3em;
+	margin-top:0.3em;
+	float:right;
+}
+
+/* replace from here */
+
+.icon-lemon-bite:before {@include font-icon;
+	content: "\e900";
+}
+.icon-lemon-bite-round:before {@include font-icon;
+	content: "\e800";
+}
+.icon-clock-empty:before {@include font-icon;
+	content: "\e600";
+}
+.icon-clock-full:before {@include font-icon;
+	content: "\e601";
+}
+.icon-clock-hour:before {@include font-icon;
+	content: "\e602";
+}
+.icon-clock-minute:before {@include font-icon;
+	content: "\e603";
+}
+.icon-glass:before {@include font-icon;
+	content: "\f000";
+}
+.icon-music:before {@include font-icon;
+	content: "\f001";
+}
+.icon-search:before {@include font-icon;
+	content: "\f002";
+}
+.icon-envelope-o:before {@include font-icon;
+	content: "\f003";
+}
+.icon-heart:before {@include font-icon;
+	content: "\f004";
+}
+.icon-star:before {@include font-icon;
+	content: "\f005";
+}
+.icon-star-o:before {@include font-icon;
+	content: "\f006";
+}
+.icon-user:before {@include font-icon;
+	content: "\f007";
+}
+.icon-film:before {@include font-icon;
+	content: "\f008";
+}
+.icon-th-large:before {@include font-icon;
+	content: "\f009";
+}
+.icon-th:before {@include font-icon;
+	content: "\f00a";
+}
+.icon-th-list:before {@include font-icon;
+	content: "\f00b";
+}
+.icon-check:before {@include font-icon;
+	content: "\f00c";
+}
+.icon-times:before {@include font-icon;
+	content: "\f00d";
+}
+.icon-search-plus:before {@include font-icon;
+	content: "\f00e";
+}
+.icon-search-minus:before {@include font-icon;
+	content: "\f010";
+}
+.icon-power-off:before {@include font-icon;
+	content: "\f011";
+}
+.icon-signal:before {@include font-icon;
+	content: "\f012";
+}
+.icon-gear:before {@include font-icon;
+	content: "\f013";
+}
+.icon-trash-o:before {@include font-icon;
+	content: "\f014";
+}
+.icon-home:before {@include font-icon;
+	content: "\f015";
+}
+.icon-file-o:before {@include font-icon;
+	content: "\f016";
+}
+.icon-clock-o:before {@include font-icon;
+	content: "\f017";
+}
+.icon-road:before {@include font-icon;
+	content: "\f018";
+}
+.icon-download:before {@include font-icon;
+	content: "\f019";
+}
+.icon-arrow-circle-o-down:before {@include font-icon;
+	content: "\f01a";
+}
+.icon-arrow-circle-o-up:before {@include font-icon;
+	content: "\f01b";
+}
+.icon-inbox:before {@include font-icon;
+	content: "\f01c";
+}
+.icon-play-circle-o:before {@include font-icon;
+	content: "\f01d";
+}
+.icon-rotate-right:before {@include font-icon;
+	content: "\f01e";
+}
+.icon-refresh:before {@include font-icon;
+	content: "\f021";
+}
+.icon-list-alt:before {@include font-icon;
+	content: "\f022";
+}
+.icon-lock:before {@include font-icon;
+	content: "\f023";
+}
+.icon-flag:before {@include font-icon;
+	content: "\f024";
+}
+.icon-headphones:before {@include font-icon;
+	content: "\f025";
+}
+.icon-volume-off:before {@include font-icon;
+	content: "\f026";
+}
+.icon-volume-down:before {@include font-icon;
+	content: "\f027";
+}
+.icon-volume-up:before {@include font-icon;
+	content: "\f028";
+}
+.icon-qrcode:before {@include font-icon;
+	content: "\f029";
+}
+.icon-barcode:before {@include font-icon;
+	content: "\f02a";
+}
+.icon-tag:before {@include font-icon;
+	content: "\f02b";
+}
+.icon-tags:before {@include font-icon;
+	content: "\f02c";
+}
+.icon-book:before {@include font-icon;
+	content: "\f02d";
+}
+.icon-bookmark:before {@include font-icon;
+	content: "\f02e";
+}
+.icon-print:before {@include font-icon;
+	content: "\f02f";
+}
+.icon-camera:before {@include font-icon;
+	content: "\f030";
+}
+.icon-font:before {@include font-icon;
+	content: "\f031";
+}
+.icon-bold:before {@include font-icon;
+	content: "\f032";
+}
+.icon-italic:before {@include font-icon;
+	content: "\f033";
+}
+.icon-text-height:before {@include font-icon;
+	content: "\f034";
+}
+.icon-text-width:before {@include font-icon;
+	content: "\f035";
+}
+.icon-align-left:before {@include font-icon;
+	content: "\f036";
+}
+.icon-align-center:before {@include font-icon;
+	content: "\f037";
+}
+.icon-align-right:before {@include font-icon;
+	content: "\f038";
+}
+.icon-align-justify:before {@include font-icon;
+	content: "\f039";
+}
+.icon-list:before {@include font-icon;
+	content: "\f03a";
+}
+.icon-dedent:before {@include font-icon;
+	content: "\f03b";
+}
+.icon-indent:before {@include font-icon;
+	content: "\f03c";
+}
+.icon-video-camera:before {@include font-icon;
+	content: "\f03d";
+}
+.icon-photo:before {@include font-icon;
+	content: "\f03e";
+}
+.icon-pencil:before {@include font-icon;
+	content: "\f040";
+}
+.icon-map-marker:before {@include font-icon;
+	content: "\f041";
+}
+.icon-adjust:before {@include font-icon;
+	content: "\f042";
+}
+.icon-tint:before {@include font-icon;
+	content: "\f043";
+}
+.icon-edit:before {@include font-icon;
+	content: "\f044";
+}
+.icon-share-square-o:before {@include font-icon;
+	content: "\f045";
+}
+.icon-check-square-o:before {@include font-icon;
+	content: "\f046";
+}
+.icon-arrows:before {@include font-icon;
+	content: "\f047";
+}
+.icon-step-backward:before {@include font-icon;
+	content: "\f048";
+}
+.icon-fast-backward:before {@include font-icon;
+	content: "\f049";
+}
+.icon-backward:before {@include font-icon;
+	content: "\f04a";
+}
+.icon-play:before {@include font-icon;
+	content: "\f04b";
+}
+.icon-pause:before {@include font-icon;
+	content: "\f04c";
+}
+.icon-stop:before {@include font-icon;
+	content: "\f04d";
+}
+.icon-forward:before {@include font-icon;
+	content: "\f04e";
+}
+.icon-fast-forward:before {@include font-icon;
+	content: "\f050";
+}
+.icon-step-forward:before {@include font-icon;
+	content: "\f051";
+}
+.icon-eject:before {@include font-icon;
+	content: "\f052";
+}
+.icon-chevron-left:before {@include font-icon;
+	content: "\f053";
+}
+.icon-chevron-right:before {@include font-icon;
+	content: "\f054";
+}
+.icon-plus-circle:before {@include font-icon;
+	content: "\f055";
+}
+.icon-minus-circle:before {@include font-icon;
+	content: "\f056";
+}
+.icon-times-circle:before {@include font-icon;
+	content: "\f057";
+}
+.icon-check-circle:before {@include font-icon;
+	content: "\f058";
+}
+.icon-question-circle:before {@include font-icon;
+	content: "\f059";
+}
+.icon-info-circle:before {@include font-icon;
+	content: "\f05a";
+}
+.icon-crosshairs:before {@include font-icon;
+	content: "\f05b";
+}
+.icon-times-circle-o:before {@include font-icon;
+	content: "\f05c";
+}
+.icon-check-circle-o:before {@include font-icon;
+	content: "\f05d";
+}
+.icon-ban:before {@include font-icon;
+	content: "\f05e";
+}
+.icon-arrow-left:before {@include font-icon;
+	content: "\f060";
+}
+.icon-arrow-right:before {@include font-icon;
+	content: "\f061";
+}
+.icon-arrow-up:before {@include font-icon;
+	content: "\f062";
+}
+.icon-arrow-down:before {@include font-icon;
+	content: "\f063";
+}
+.icon-mail-forward:before {@include font-icon;
+	content: "\f064";
+}
+.icon-expand:before {@include font-icon;
+	content: "\f065";
+}
+.icon-compress:before {@include font-icon;
+	content: "\f066";
+}
+.icon-plus:before {@include font-icon;
+	content: "\f067";
+}
+.icon-minus:before {@include font-icon;
+	content: "\f068";
+}
+.icon-asterisk:before {@include font-icon;
+	content: "\f069";
+}
+.icon-exclamation-circle:before {@include font-icon;
+	content: "\f06a";
+}
+.icon-gift:before {@include font-icon;
+	content: "\f06b";
+}
+.icon-leaf:before {@include font-icon;
+	content: "\f06c";
+}
+.icon-fire:before {@include font-icon;
+	content: "\f06d";
+}
+.icon-eye:before {@include font-icon;
+	content: "\f06e";
+}
+.icon-eye-slash:before {@include font-icon;
+	content: "\f070";
+}
+.icon-warning:before {@include font-icon;
+	content: "\f071";
+}
+.icon-plane:before {@include font-icon;
+	content: "\f072";
+}
+.icon-calendar:before {@include font-icon;
+	content: "\f073";
+}
+.icon-random:before {@include font-icon;
+	content: "\f074";
+}
+.icon-comment:before {@include font-icon;
+	content: "\f075";
+}
+.icon-magnet:before {@include font-icon;
+	content: "\f076";
+}
+.icon-chevron-up:before {@include font-icon;
+	content: "\f077";
+}
+.icon-chevron-down:before {@include font-icon;
+	content: "\f078";
+}
+.icon-retweet:before {@include font-icon;
+	content: "\f079";
+}
+.icon-shopping-cart:before {@include font-icon;
+	content: "\f07a";
+}
+.icon-folder:before {@include font-icon;
+	content: "\f07b";
+}
+.icon-folder-open:before {@include font-icon;
+	content: "\f07c";
+}
+.icon-arrows-v:before {@include font-icon;
+	content: "\f07d";
+}
+.icon-arrows-h:before {@include font-icon;
+	content: "\f07e";
+}
+.icon-bar-chart-o:before {@include font-icon;
+	content: "\f080";
+}
+.icon-twitter-square:before {@include font-icon;
+	content: "\f081";
+}
+.icon-facebook-square:before {@include font-icon;
+	content: "\f082";
+}
+.icon-camera-retro:before {@include font-icon;
+	content: "\f083";
+}
+.icon-key:before {@include font-icon;
+	content: "\f084";
+}
+.icon-gears:before {@include font-icon;
+	content: "\f085";
+}
+.icon-comments:before {@include font-icon;
+	content: "\f086";
+}
+.icon-thumbs-o-up:before {@include font-icon;
+	content: "\f087";
+}
+.icon-thumbs-o-down:before {@include font-icon;
+	content: "\f088";
+}
+.icon-star-half:before {@include font-icon;
+	content: "\f089";
+}
+.icon-heart-o:before {@include font-icon;
+	content: "\f08a";
+}
+.icon-sign-out:before {@include font-icon;
+	content: "\f08b";
+}
+.icon-linkedin-square:before {@include font-icon;
+	content: "\f08c";
+}
+.icon-thumb-tack:before {@include font-icon;
+	content: "\f08d";
+}
+.icon-external-link:before {@include font-icon;
+	content: "\f08e";
+}
+.icon-sign-in:before {@include font-icon;
+	content: "\f090";
+}
+.icon-trophy:before {@include font-icon;
+	content: "\f091";
+}
+.icon-github-square:before {@include font-icon;
+	content: "\f092";
+}
+.icon-upload:before {@include font-icon;
+	content: "\f093";
+}
+.icon-lemon-o:before {@include font-icon;
+	content: "\f094";
+}
+.icon-phone:before {@include font-icon;
+	content: "\f095";
+}
+.icon-square-o:before {@include font-icon;
+	content: "\f096";
+}
+.icon-bookmark-o:before {@include font-icon;
+	content: "\f097";
+}
+.icon-phone-square:before {@include font-icon;
+	content: "\f098";
+}
+.icon-twitter:before {@include font-icon;
+	content: "\f099";
+}
+.icon-facebook:before {@include font-icon;
+	content: "\f09a";
+}
+.icon-github:before {@include font-icon;
+	content: "\f09b";
+}
+.icon-unlock:before {@include font-icon;
+	content: "\f09c";
+}
+.icon-credit-card:before {@include font-icon;
+	content: "\f09d";
+}
+.icon-rss:before {@include font-icon;
+	content: "\f09e";
+}
+.icon-hdd-o:before {@include font-icon;
+	content: "\f0a0";
+}
+.icon-bullhorn:before {@include font-icon;
+	content: "\f0a1";
+}
+.icon-bell-o:before {@include font-icon;
+	content: "\f0a2";
+}
+.icon-certificate:before {@include font-icon;
+	content: "\f0a3";
+}
+.icon-hand-o-right:before {@include font-icon;
+	content: "\f0a4";
+}
+.icon-hand-o-left:before {@include font-icon;
+	content: "\f0a5";
+}
+.icon-hand-o-up:before {@include font-icon;
+	content: "\f0a6";
+}
+.icon-hand-o-down:before {@include font-icon;
+	content: "\f0a7";
+}
+.icon-arrow-circle-left:before {@include font-icon;
+	content: "\f0a8";
+}
+.icon-arrow-circle-right:before {@include font-icon;
+	content: "\f0a9";
+}
+.icon-arrow-circle-up:before {@include font-icon;
+	content: "\f0aa";
+}
+.icon-arrow-circle-down:before {@include font-icon;
+	content: "\f0ab";
+}
+.icon-globe:before {@include font-icon;
+	content: "\f0ac";
+}
+.icon-wrench:before {@include font-icon;
+	content: "\f0ad";
+}
+.icon-tasks:before {@include font-icon;
+	content: "\f0ae";
+}
+.icon-filter:before {@include font-icon;
+	content: "\f0b0";
+}
+.icon-briefcase:before {@include font-icon;
+	content: "\f0b1";
+}
+.icon-arrows-alt:before {@include font-icon;
+	content: "\f0b2";
+}
+.icon-group:before {@include font-icon;
+	content: "\f0c0";
+}
+.icon-chain:before {@include font-icon;
+	content: "\f0c1";
+}
+.icon-cloud:before {@include font-icon;
+	content: "\f0c2";
+}
+.icon-flask:before {@include font-icon;
+	content: "\f0c3";
+}
+.icon-cut:before {@include font-icon;
+	content: "\f0c4";
+}
+.icon-copy:before {@include font-icon;
+	content: "\f0c5";
+}
+.icon-paperclip:before {@include font-icon;
+	content: "\f0c6";
+}
+.icon-save:before {@include font-icon;
+	content: "\f0c7";
+}
+.icon-square:before {@include font-icon;
+	content: "\f0c8";
+}
+.icon-navicon:before {@include font-icon;
+	content: "\f0c9";
+}
+.icon-list-ul:before {@include font-icon;
+	content: "\f0ca";
+}
+.icon-list-ol:before {@include font-icon;
+	content: "\f0cb";
+}
+.icon-strikethrough:before {@include font-icon;
+	content: "\f0cc";
+}
+.icon-underline:before {@include font-icon;
+	content: "\f0cd";
+}
+.icon-table:before {@include font-icon;
+	content: "\f0ce";
+}
+.icon-magic:before {@include font-icon;
+	content: "\f0d0";
+}
+.icon-truck:before {@include font-icon;
+	content: "\f0d1";
+}
+.icon-pinterest:before {@include font-icon;
+	content: "\f0d2";
+}
+.icon-pinterest-square:before {@include font-icon;
+	content: "\f0d3";
+}
+.icon-google-plus-square:before {@include font-icon;
+	content: "\f0d4";
+}
+.icon-google-plus:before {@include font-icon;
+	content: "\f0d5";
+}
+.icon-money:before {@include font-icon;
+	content: "\f0d6";
+}
+.icon-caret-down:before {@include font-icon;
+	content: "\f0d7";
+}
+.icon-caret-up:before {@include font-icon;
+	content: "\f0d8";
+}
+.icon-caret-left:before {@include font-icon;
+	content: "\f0d9";
+}
+.icon-caret-right:before {@include font-icon;
+	content: "\f0da";
+}
+.icon-columns:before {@include font-icon;
+	content: "\f0db";
+}
+.icon-unsorted:before {@include font-icon;
+	content: "\f0dc";
+}
+.icon-sort-down:before {@include font-icon;
+	content: "\f0dd";
+}
+.icon-sort-up:before {@include font-icon;
+	content: "\f0de";
+}
+.icon-envelope:before {@include font-icon;
+	content: "\f0e0";
+}
+.icon-linkedin:before {@include font-icon;
+	content: "\f0e1";
+}
+.icon-rotate-left:before {@include font-icon;
+	content: "\f0e2";
+}
+.icon-legal:before {@include font-icon;
+	content: "\f0e3";
+}
+.icon-dashboard:before {@include font-icon;
+	content: "\f0e4";
+}
+.icon-comment-o:before {@include font-icon;
+	content: "\f0e5";
+}
+.icon-comments-o:before {@include font-icon;
+	content: "\f0e6";
+}
+.icon-flash:before {@include font-icon;
+	content: "\f0e7";
+}
+.icon-sitemap:before {@include font-icon;
+	content: "\f0e8";
+}
+.icon-umbrella:before {@include font-icon;
+	content: "\f0e9";
+}
+.icon-paste:before {@include font-icon;
+	content: "\f0ea";
+}
+.icon-lightbulb-o:before {@include font-icon;
+	content: "\f0eb";
+}
+.icon-exchange:before {@include font-icon;
+	content: "\f0ec";
+}
+.icon-cloud-download:before {@include font-icon;
+	content: "\f0ed";
+}
+.icon-cloud-upload:before {@include font-icon;
+	content: "\f0ee";
+}
+.icon-user-md:before {@include font-icon;
+	content: "\f0f0";
+}
+.icon-stethoscope:before {@include font-icon;
+	content: "\f0f1";
+}
+.icon-suitcase:before {@include font-icon;
+	content: "\f0f2";
+}
+.icon-bell:before {@include font-icon;
+	content: "\f0f3";
+}
+.icon-coffee:before {@include font-icon;
+	content: "\f0f4";
+}
+.icon-cutlery:before {@include font-icon;
+	content: "\f0f5";
+}
+.icon-file-text-o:before {@include font-icon;
+	content: "\f0f6";
+}
+.icon-building-o:before {@include font-icon;
+	content: "\f0f7";
+}
+.icon-hospital-o:before {@include font-icon;
+	content: "\f0f8";
+}
+.icon-ambulance:before {@include font-icon;
+	content: "\f0f9";
+}
+.icon-medkit:before {@include font-icon;
+	content: "\f0fa";
+}
+.icon-fighter-jet:before {@include font-icon;
+	content: "\f0fb";
+}
+.icon-beer:before {@include font-icon;
+	content: "\f0fc";
+}
+.icon-h-square:before {@include font-icon;
+	content: "\f0fd";
+}
+.icon-plus-square:before {@include font-icon;
+	content: "\f0fe";
+}
+.icon-angle-double-left:before {@include font-icon;
+	content: "\f100";
+}
+.icon-angle-double-right:before {@include font-icon;
+	content: "\f101";
+}
+.icon-angle-double-up:before {@include font-icon;
+	content: "\f102";
+}
+.icon-angle-double-down:before {@include font-icon;
+	content: "\f103";
+}
+.icon-angle-left:before {@include font-icon;
+	content: "\f104";
+}
+.icon-angle-right:before {@include font-icon;
+	content: "\f105";
+}
+.icon-angle-up:before {@include font-icon;
+	content: "\f106";
+}
+.icon-angle-down:before {@include font-icon;
+	content: "\f107";
+}
+.icon-desktop:before {@include font-icon;
+	content: "\f108";
+}
+.icon-laptop:before {@include font-icon;
+	content: "\f109";
+}
+.icon-tablet:before {@include font-icon;
+	content: "\f10a";
+}
+.icon-mobile-phone:before {@include font-icon;
+	content: "\f10b";
+}
+.icon-circle-o:before {@include font-icon;
+	content: "\f10c";
+}
+.icon-quote-left:before {@include font-icon;
+	content: "\f10d";
+}
+.icon-quote-right:before {@include font-icon;
+	content: "\f10e";
+}
+.icon-spinner:before {@include font-icon;
+	content: "\f110";
+}
+.icon-circle:before {@include font-icon;
+	content: "\f111";
+}
+.icon-mail-reply:before {@include font-icon;
+	content: "\f112";
+}
+.icon-github-alt:before {@include font-icon;
+	content: "\f113";
+}
+.icon-folder-o:before {@include font-icon;
+	content: "\f114";
+}
+.icon-folder-open-o:before {@include font-icon;
+	content: "\f115";
+}
+.icon-smile-o:before {@include font-icon;
+	content: "\f118";
+}
+.icon-frown-o:before {@include font-icon;
+	content: "\f119";
+}
+.icon-meh-o:before {@include font-icon;
+	content: "\f11a";
+}
+.icon-gamepad:before {@include font-icon;
+	content: "\f11b";
+}
+.icon-keyboard-o:before {@include font-icon;
+	content: "\f11c";
+}
+.icon-flag-o:before {@include font-icon;
+	content: "\f11d";
+}
+.icon-flag-checkered:before {@include font-icon;
+	content: "\f11e";
+}
+.icon-terminal:before {@include font-icon;
+	content: "\f120";
+}
+.icon-code:before {@include font-icon;
+	content: "\f121";
+}
+.icon-mail-reply-all:before {@include font-icon;
+	content: "\f122";
+}
+.icon-star-half-empty:before {@include font-icon;
+	content: "\f123";
+}
+.icon-location-arrow:before {@include font-icon;
+	content: "\f124";
+}
+.icon-crop:before {@include font-icon;
+	content: "\f125";
+}
+.icon-code-fork:before {@include font-icon;
+	content: "\f126";
+}
+.icon-unlink:before {@include font-icon;
+	content: "\f127";
+}
+.icon-question:before {@include font-icon;
+	content: "\f128";
+}
+.icon-info:before {@include font-icon;
+	content: "\f129";
+}
+.icon-exclamation:before {@include font-icon;
+	content: "\f12a";
+}
+.icon-superscript:before {@include font-icon;
+	content: "\f12b";
+}
+.icon-subscript:before {@include font-icon;
+	content: "\f12c";
+}
+.icon-eraser:before {@include font-icon;
+	content: "\f12d";
+}
+.icon-puzzle-piece:before {@include font-icon;
+	content: "\f12e";
+}
+.icon-microphone:before {@include font-icon;
+	content: "\f130";
+}
+.icon-microphone-slash:before {@include font-icon;
+	content: "\f131";
+}
+.icon-shield:before {@include font-icon;
+	content: "\f132";
+}
+.icon-calendar-o:before {@include font-icon;
+	content: "\f133";
+}
+.icon-fire-extinguisher:before {@include font-icon;
+	content: "\f134";
+}
+.icon-rocket:before {@include font-icon;
+	content: "\f135";
+}
+.icon-maxcdn:before {@include font-icon;
+	content: "\f136";
+}
+.icon-chevron-circle-left:before {@include font-icon;
+	content: "\f137";
+}
+.icon-chevron-circle-right:before {@include font-icon;
+	content: "\f138";
+}
+.icon-chevron-circle-up:before {@include font-icon;
+	content: "\f139";
+}
+.icon-chevron-circle-down:before {@include font-icon;
+	content: "\f13a";
+}
+.icon-html5:before {@include font-icon;
+	content: "\f13b";
+}
+.icon-css3:before {@include font-icon;
+	content: "\f13c";
+}
+.icon-anchor:before {@include font-icon;
+	content: "\f13d";
+}
+.icon-unlock-alt:before {@include font-icon;
+	content: "\f13e";
+}
+.icon-bullseye:before {@include font-icon;
+	content: "\f140";
+}
+.icon-ellipsis-h:before {@include font-icon;
+	content: "\f141";
+}
+.icon-ellipsis-v:before {@include font-icon;
+	content: "\f142";
+}
+.icon-rss-square:before {@include font-icon;
+	content: "\f143";
+}
+.icon-play-circle:before {@include font-icon;
+	content: "\f144";
+}
+.icon-ticket:before {@include font-icon;
+	content: "\f145";
+}
+.icon-minus-square:before {@include font-icon;
+	content: "\f146";
+}
+.icon-minus-square-o:before {@include font-icon;
+	content: "\f147";
+}
+.icon-level-up:before {@include font-icon;
+	content: "\f148";
+}
+.icon-level-down:before {@include font-icon;
+	content: "\f149";
+}
+.icon-check-square:before {@include font-icon;
+	content: "\f14a";
+}
+.icon-pencil-square:before {@include font-icon;
+	content: "\f14b";
+}
+.icon-external-link-square:before {@include font-icon;
+	content: "\f14c";
+}
+.icon-share-square:before {@include font-icon;
+	content: "\f14d";
+}
+.icon-compass:before {@include font-icon;
+	content: "\f14e";
+}
+.icon-toggle-down:before {@include font-icon;
+	content: "\f150";
+}
+.icon-toggle-up:before {@include font-icon;
+	content: "\f151";
+}
+.icon-toggle-right:before {@include font-icon;
+	content: "\f152";
+}
+.icon-euro:before {@include font-icon;
+	content: "\f153";
+}
+.icon-gbp:before {@include font-icon;
+	content: "\f154";
+}
+.icon-dollar:before {@include font-icon;
+	content: "\f155";
+}
+.icon-rupee:before {@include font-icon;
+	content: "\f156";
+}
+.icon-cny:before {@include font-icon;
+	content: "\f157";
+}
+.icon-ruble:before {@include font-icon;
+	content: "\f158";
+}
+.icon-won:before {@include font-icon;
+	content: "\f159";
+}
+.icon-bitcoin:before {@include font-icon;
+	content: "\f15a";
+}
+.icon-file:before {@include font-icon;
+	content: "\f15b";
+}
+.icon-file-text:before {@include font-icon;
+	content: "\f15c";
+}
+.icon-sort-alpha-asc:before {@include font-icon;
+	content: "\f15d";
+}
+.icon-sort-alpha-desc:before {@include font-icon;
+	content: "\f15e";
+}
+.icon-sort-amount-asc:before {@include font-icon;
+	content: "\f160";
+}
+.icon-sort-amount-desc:before {@include font-icon;
+	content: "\f161";
+}
+.icon-sort-numeric-asc:before {@include font-icon;
+	content: "\f162";
+}
+.icon-sort-numeric-desc:before {@include font-icon;
+	content: "\f163";
+}
+.icon-thumbs-up:before {@include font-icon;
+	content: "\f164";
+}
+.icon-thumbs-down:before {@include font-icon;
+	content: "\f165";
+}
+.icon-youtube-square:before {@include font-icon;
+	content: "\f166";
+}
+.icon-youtube:before {@include font-icon;
+	content: "\f167";
+}
+.icon-xing:before {@include font-icon;
+	content: "\f168";
+}
+.icon-xing-square:before {@include font-icon;
+	content: "\f169";
+}
+.icon-youtube-play:before {@include font-icon;
+	content: "\f16a";
+}
+.icon-dropbox:before {@include font-icon;
+	content: "\f16b";
+}
+.icon-stack-overflow:before {@include font-icon;
+	content: "\f16c";
+}
+.icon-instagram:before {@include font-icon;
+	content: "\f16d";
+}
+.icon-flickr:before {@include font-icon;
+	content: "\f16e";
+}
+.icon-adn:before {@include font-icon;
+	content: "\f170";
+}
+.icon-bitbucket:before {@include font-icon;
+	content: "\f171";
+}
+.icon-bitbucket-square:before {@include font-icon;
+	content: "\f172";
+}
+.icon-tumblr:before {@include font-icon;
+	content: "\f173";
+}
+.icon-tumblr-square:before {@include font-icon;
+	content: "\f174";
+}
+.icon-long-arrow-down:before {@include font-icon;
+	content: "\f175";
+}
+.icon-long-arrow-up:before {@include font-icon;
+	content: "\f176";
+}
+.icon-long-arrow-left:before {@include font-icon;
+	content: "\f177";
+}
+.icon-long-arrow-right:before {@include font-icon;
+	content: "\f178";
+}
+.icon-apple:before {@include font-icon;
+	content: "\f179";
+}
+.icon-windows:before {@include font-icon;
+	content: "\f17a";
+}
+.icon-android:before {@include font-icon;
+	content: "\f17b";
+}
+.icon-linux:before {@include font-icon;
+	content: "\f17c";
+}
+.icon-dribbble:before {@include font-icon;
+	content: "\f17d";
+}
+.icon-skype:before {@include font-icon;
+	content: "\f17e";
+}
+.icon-foursquare:before {@include font-icon;
+	content: "\f180";
+}
+.icon-trello:before {@include font-icon;
+	content: "\f181";
+}
+.icon-female:before {@include font-icon;
+	content: "\f182";
+}
+.icon-male:before {@include font-icon;
+	content: "\f183";
+}
+.icon-gittip:before {@include font-icon;
+	content: "\f184";
+}
+.icon-sun-o:before {@include font-icon;
+	content: "\f185";
+}
+.icon-moon-o:before {@include font-icon;
+	content: "\f186";
+}
+.icon-archive:before {@include font-icon;
+	content: "\f187";
+}
+.icon-bug:before {@include font-icon;
+	content: "\f188";
+}
+.icon-vk:before {@include font-icon;
+	content: "\f189";
+}
+.icon-weibo:before {@include font-icon;
+	content: "\f18a";
+}
+.icon-renren:before {@include font-icon;
+	content: "\f18b";
+}
+.icon-pagelines:before {@include font-icon;
+	content: "\f18c";
+}
+.icon-stack-exchange:before {@include font-icon;
+	content: "\f18d";
+}
+.icon-arrow-circle-o-right:before {@include font-icon;
+	content: "\f18e";
+}
+.icon-arrow-circle-o-left:before {@include font-icon;
+	content: "\f190";
+}
+.icon-toggle-left:before {@include font-icon;
+	content: "\f191";
+}
+.icon-dot-circle-o:before {@include font-icon;
+	content: "\f192";
+}
+.icon-wheelchair:before {@include font-icon;
+	content: "\f193";
+}
+.icon-vimeo-square:before {@include font-icon;
+	content: "\f194";
+}
+.icon-turkish-lira:before {@include font-icon;
+	content: "\f195";
+}
+.icon-plus-square-o:before {@include font-icon;
+	content: "\f196";
+}
+.icon-space-shuttle:before {@include font-icon;
+	content: "\f197";
+}
+.icon-slack:before {@include font-icon;
+	content: "\f198";
+}
+.icon-envelope-square:before {@include font-icon;
+	content: "\f199";
+}
+.icon-wordpress:before {@include font-icon;
+	content: "\f19a";
+}
+.icon-openid:before {@include font-icon;
+	content: "\f19b";
+}
+.icon-institution:before {@include font-icon;
+	content: "\f19c";
+}
+.icon-mortar-board:before {@include font-icon;
+	content: "\f19d";
+}
+.icon-yahoo:before {@include font-icon;
+	content: "\f19e";
+}
+.icon-google:before {@include font-icon;
+	content: "\f1a0";
+}
+.icon-reddit:before {@include font-icon;
+	content: "\f1a1";
+}
+.icon-reddit-square:before {@include font-icon;
+	content: "\f1a2";
+}
+.icon-stumbleupon-circle:before {@include font-icon;
+	content: "\f1a3";
+}
+.icon-stumbleupon:before {@include font-icon;
+	content: "\f1a4";
+}
+.icon-delicious:before {@include font-icon;
+	content: "\f1a5";
+}
+.icon-digg:before {@include font-icon;
+	content: "\f1a6";
+}
+.icon-pied-piper-square:before {@include font-icon;
+	content: "\f1a7";
+}
+.icon-pied-piper-alt:before {@include font-icon;
+	content: "\f1a8";
+}
+.icon-drupal:before {@include font-icon;
+	content: "\f1a9";
+}
+.icon-joomla:before {@include font-icon;
+	content: "\f1aa";
+}
+.icon-language:before {@include font-icon;
+	content: "\f1ab";
+}
+.icon-fax:before {@include font-icon;
+	content: "\f1ac";
+}
+.icon-building:before {@include font-icon;
+	content: "\f1ad";
+}
+.icon-child:before {@include font-icon;
+	content: "\f1ae";
+}
+.icon-paw:before {@include font-icon;
+	content: "\f1b0";
+}
+.icon-spoon:before {@include font-icon;
+	content: "\f1b1";
+}
+.icon-cube:before {@include font-icon;
+	content: "\f1b2";
+}
+.icon-cubes:before {@include font-icon;
+	content: "\f1b3";
+}
+.icon-behance:before {@include font-icon;
+	content: "\f1b4";
+}
+.icon-behance-square:before {@include font-icon;
+	content: "\f1b5";
+}
+.icon-steam:before {@include font-icon;
+	content: "\f1b6";
+}
+.icon-steam-square:before {@include font-icon;
+	content: "\f1b7";
+}
+.icon-recycle:before {@include font-icon;
+	content: "\f1b8";
+}
+.icon-automobile:before {@include font-icon;
+	content: "\f1b9";
+}
+.icon-cab:before {@include font-icon;
+	content: "\f1ba";
+}
+.icon-tree:before {@include font-icon;
+	content: "\f1bb";
+}
+.icon-spotify:before {@include font-icon;
+	content: "\f1bc";
+}
+.icon-deviantart:before {@include font-icon;
+	content: "\f1bd";
+}
+.icon-soundcloud:before {@include font-icon;
+	content: "\f1be";
+}
+.icon-database:before {@include font-icon;
+	content: "\f1c0";
+}
+.icon-file-pdf-o:before {@include font-icon;
+	content: "\f1c1";
+}
+.icon-file-word-o:before {@include font-icon;
+	content: "\f1c2";
+}
+.icon-file-excel-o:before {@include font-icon;
+	content: "\f1c3";
+}
+.icon-file-powerpoint-o:before {@include font-icon;
+	content: "\f1c4";
+}
+.icon-file-photo-o:before {@include font-icon;
+	content: "\f1c5";
+}
+.icon-file-zip-o:before {@include font-icon;
+	content: "\f1c6";
+}
+.icon-file-sound-o:before {@include font-icon;
+	content: "\f1c7";
+}
+.icon-file-movie-o:before {@include font-icon;
+	content: "\f1c8";
+}
+.icon-file-code-o:before {@include font-icon;
+	content: "\f1c9";
+}
+.icon-vine:before {@include font-icon;
+	content: "\f1ca";
+}
+.icon-codepen:before {@include font-icon;
+	content: "\f1cb";
+}
+.icon-jsfiddle:before {@include font-icon;
+	content: "\f1cc";
+}
+.icon-life-bouy:before {@include font-icon;
+	content: "\f1cd";
+}
+.icon-circle-o-notch:before {@include font-icon;
+	content: "\f1ce";
+}
+.icon-ra:before {@include font-icon;
+	content: "\f1d0";
+}
+.icon-ge:before {@include font-icon;
+	content: "\f1d1";
+}
+.icon-git-square:before {@include font-icon;
+	content: "\f1d2";
+}
+.icon-git:before {@include font-icon;
+	content: "\f1d3";
+}
+.icon-hacker-news:before {@include font-icon;
+	content: "\f1d4";
+}
+.icon-tencent-weibo:before {@include font-icon;
+	content: "\f1d5";
+}
+.icon-qq:before {@include font-icon;
+	content: "\f1d6";
+}
+.icon-wechat:before {@include font-icon;
+	content: "\f1d7";
+}
+.icon-send:before {@include font-icon;
+	content: "\f1d8";
+}
+.icon-send-o:before {@include font-icon;
+	content: "\f1d9";
+}
+.icon-history:before {@include font-icon;
+	content: "\f1da";
+}
+.icon-circle-thin:before {@include font-icon;
+	content: "\f1db";
+}
+.icon-header:before {@include font-icon;
+	content: "\f1dc";
+}
+.icon-paragraph:before {@include font-icon;
+	content: "\f1dd";
+}
+.icon-sliders:before {@include font-icon;
+	content: "\f1de";
+}
+.icon-share-alt:before {@include font-icon;
+	content: "\f1e0";
+}
+.icon-share-alt-square:before {@include font-icon;
+	content: "\f1e1";
+}
+.icon-bomb:before {@include font-icon;
+	content: "\f1e2";
+}
+

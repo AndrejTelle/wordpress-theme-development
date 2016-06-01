@@ -1,0 +1,45 @@
+/* sticky footer via http://pixelsvsbytes.com/blog/2011/09/sticky-css-footers-the-flexible-way/ */
+
+/* html scructure
+
+    <html>
+        <body>
+            <header></header>
+            <div class="main-wrapper">
+                <div class="main">
+                    content here
+                </div>
+            </div>
+            <footer></footer>
+        </body>
+    </html>
+
+*/
+
+
+html, body {
+    height: 100%;
+    margin: 0pt;
+}
+
+body {
+     display: table;     
+     width: 100%;
+     border-collapse:collapse;
+}
+
+html>/**/body {
+    height: 100%;
+}
+
+header, .main-wrapper, footer {
+     display: table-row;
+     height: 1px;
+     overflow:hidden;
+}
+html>body .main-wrapper, html>body header {
+     height: auto;
+}
+
+.main-wrapper {height:100% !important;}
+.main {border-collapse: separate;}

@@ -1,0 +1,25 @@
+/* image display */
+
+img {max-width:100%; height:auto;}
+/* fixes google map control bugs */
+.gmnoprint img {max-width:none;}
+
+.img-frame {
+	@extend %shadow-small; @extend %rounded; display:block; border:1px solid #DDDDDD; background:#fff; -moz-border-radius:4px; padding:4px;  margin-bottom:5px;
+	img {display:block;}
+}
+
+.img-clean {@extend %shadow-remove; @extend %rounded-remove; border:none; padding:0; }
+
+a .img-frame:hover {background:lighten($primary, 5);}
+
+.img-frame-link {
+	img {
+		@extend .img-frame;
+		&:hover {background:lighten($primary, 5);}
+	}
+}
+
+%img-round {@extend %circle; border:solid 1px $txt-color;}
+
+%img-left {display:block; float:left; margin-right:12px;}

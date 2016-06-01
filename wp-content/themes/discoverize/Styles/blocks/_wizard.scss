@@ -1,0 +1,7 @@
+/* triangle boxes */
+
+.triangle {position:relative;}
+@mixin triangle-r($triangle-height, $triangle-color) {border-top:$triangle-height inset transparent; border-bottom: $triangle-height inset transparent; border-left: $triangle-height solid $triangle-color; position:absolute; top:0; right: -$triangle-height; z-index:2; width:0; height:0; content: "";}
+
+@mixin triangle-b($triangle-height, $triangle-color) {border-left:$triangle-height inset transparent; border-right: $triangle-height inset transparent; border-top: $triangle-height solid $triangle-color; position:absolute; top:0; right: -$triangle-height; z-index:2; width:0; height:0; content: "";}
+

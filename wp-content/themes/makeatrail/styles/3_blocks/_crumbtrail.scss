@@ -1,0 +1,29 @@
+/* Crumbtrail */
+	
+	.crumbtrail a, .crumbtrail span {@extend %border-box; padding: 3px 6px; margin-right:12px; margin-bottom:5px; background:$neutral-lighter; position:relative; display:inline-block; line-height:1; height:20px; font-size:0.9em; }
+	.crumbtrail a:before, .crumbtrail span:before {width:0px; height:0px; border-top: 10px solid $neutral-lighter; border-bottom: 10px solid $neutral-lighter; border-left: 10px solid transparent; position: absolute; content: ""; top: 0; left: -10px;}
+	.crumbtrail a:after, .crumbtrail span:after {width:0px; height:0px; border-top: 10px inset transparent; border-bottom: 10px inset transparent; border-left: 10px solid $neutral-lighter; position: absolute; content: ""; top: 0; right: -10px; z-index:2;}
+
+	.crumbtrail .first:before, .crumbtrail span:first-child:before {border:none;}
+	.crumbtrail .first, .crumbtrail span:first-child {@extend %rounded-l;}
+
+	.crumbtrail .last:after, .crumbtrail span:last-child:before {border:none;}
+	.crumbtrail .last, .crumbtrail span:last-child {@extend %rounded-r;}
+
+	.cb-last-multiple  {		
+		a {margin-right:0; margin-left:-4px; border-left:solid 1px #ccc;}
+		span:first-child a {margin-left:0; border:none;}
+		span:first-child a:after {border:none;}
+		span:not(:first-child):not(:last-child) a:before {border:none;}
+		span:not(:first-child):not(:last-child) a:after {border:none;}
+		span:not(:first-child):last-child a:after {border:none;}
+		span:not(:first-child):last-child a:before {border:none;}
+		span:last-child a {@extend %rounded-r;}
+	}
+	
+	.crumbtrail .active, .crumbtrail a:hover {background:$primary; color:$txt-on-primary;}
+	.crumbtrail .active:after, .crumbtrail a:hover:after {border-left-color:$primary;}
+	.crumbtrail a:hover:before {border-top-color:$primary; border-bottom-color:$primary; }
+
+/* end crumbtrail */
+

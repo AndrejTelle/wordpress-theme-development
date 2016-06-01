@@ -1,0 +1,11 @@
+/* button group */
+
+%button-group-element {float:left; display:block; padding:1px 0px 0 5px; @extend %gradient-neutral; font-weight:normal; border:solid 1px $neutral-dark; border-left:none;}
+%button-group-element-first {@extend %rounded-l; border-left: solid 1px $neutral-dark;}
+%button-group-element-last {@extend %rounded-r;}
+
+%button-group-list li {float:left;}
+%button-group-list a {@extend %button-group-element;}
+%button-group-list li:first-child a {@extend %button-group-element-first;}
+%button-group-list li:last-child a {@extend %button-group-element-last;}
+

@@ -1,0 +1,10 @@
+/* icon font settings */
+
+
+
+.icon-chevron-right-after:after {@include font-icon;
+    content: "\f054";}
+
+.icon-unsorted-after:after {@include font-icon;
+    content: "\f0dc";
+}

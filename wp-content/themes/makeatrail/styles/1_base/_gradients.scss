@@ -1,0 +1,28 @@
+/* linear gradients */
+@mixin linear-gradient($start-color:#ccc, $end-color:#ddd, $start-position:0%, $end-position:100%, $direction:to bottom) {
+	background-color: $end-color;
+	*background-color: $end-color;
+	background-image: -ms-linear-gradient(top, $start-color, $end-color);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from($start-color), to($end-color));
+	background-image: -webkit-linear-gradient(top, $start-color $start-position, $end-color $end-position);	
+	background-image: -o-linear-gradient(top, $start-color $start-position, $end-color $end-position);
+	background-image: -moz-linear-gradient(top, $start-color $start-position, $end-color $end-position);
+	background-repeat: repeat-x;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='$start-color', endColorstr='$end-color', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	background:linear-gradient(transparent, $direction, $start-color $start-position, $end-color $end-position);	
+}
+
+@mixin linear-gradient-vertical ($start-color: rgba(255, 255, 255, 0), $end-color:#fff, $start-position:0%, $end-position:32px) {	
+  background: -webkit-gradient(linear, left top, right top, from($start-color), color-stop($end-position, $end-color)); 
+  background: -webkit-linear-gradient(left, $start-color, $end-color $end-position);
+  background: -moz-linear-gradient(left, $start-color, $end-color $end-position);
+  background: -ms-linear-gradient(left, $start-color, $end-color $end-position);
+  background: -o-linear-gradient(left, $start-color, $end-color $end-position);
+}
+
+@mixin radial-gradient($ellipse-position:50% 50%, $start-color:#ccc, $start-position:0%, $end-color:#ddd, $end-position:100%) {
+	background:radial-gradient(ellipse at $ellipse-position, $start-color $start-position, $end-color $end-position);
+}
+
+%gradient-neutral {@include linear-gradient(lighten($neutral, 10), $neutral);}
