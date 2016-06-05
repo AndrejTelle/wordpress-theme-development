@@ -21,6 +21,12 @@
  * @uses discoverize_header_style()
  */
 function discoverize_custom_header_setup() {
+	add_theme_support('custom-logo', array(
+        'width'=>300,
+        'height'=>100,
+        'flex-width'=>true,
+        'flex-height'=>false,
+    ));
 	add_theme_support( 'custom-header', apply_filters( 'discoverize_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',

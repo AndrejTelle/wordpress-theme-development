@@ -16,6 +16,17 @@
 
 .center {margin:0 auto; display:block;}
 
+@mixin group{
+    &:before, &:after{
+        content:"";
+        display:table;
+    }
+    &:after {
+        clear:both;
+    }
+    zoom:1;
+}
+
 %border-box { 
 			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -40,3 +51,12 @@
 .wrapper {background:$bg-grey-transparent; padding:2em;}
 .wrapper-white {background:$bg-white-transparent; padding:2em;}
 
+// display
+
+.screen-reader-text{
+	clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+}

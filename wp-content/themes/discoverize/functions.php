@@ -45,6 +45,7 @@ function discoverize_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'discoverize' ),
+		'secondary' => esc_html__( 'Secondary', 'discoverize' ),
 	) );
 
 	/*
@@ -116,7 +117,11 @@ add_action( 'widgets_init', 'discoverize_widgets_init' );
 function discoverize_scripts() {
 	wp_enqueue_style( 'discoverize-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'discoverize-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'discoverize-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
+	wp_localize_script( 'discoverize-navigation', 'screenReaderText', array(
+		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'discoverize' ) . '</span>',
+		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'discoverize' ) . '</span>',
+	) );
 
 	wp_enqueue_script( 'discoverize-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

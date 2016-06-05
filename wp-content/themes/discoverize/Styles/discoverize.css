@@ -5,12 +5,12 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @font-face {
   font-family: 'icomoon';
-  src: url("icon-fonts/icomoon.eot");
-  src: url("icon-fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("icon-fonts/icomoon.woff") format("woff"), url("icon-fonts/icomoon.ttf") format("truetype"), url("icon-fonts/icomoon.svg#icomoon") format("svg");
+  src: url("icon-fonts/fonts/icomoon.eot");
+  src: url("icon-fonts/fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("icon-fonts/fonts/icomoon.woff") format("woff"), url("icon-fonts/fonts/icomoon.ttf") format("truetype"), url("icon-fonts/fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
-.font-icon, .icon-home:before, .st221:before, .icon-map:before, .icon-compass:before, .st561:before, .icon-bubbles:before, .comment-count:before, .st231:before, .st551:before, .icon-users:before, .st241:before, .st591:before, .icon-umbrella:before, .icon-cloud:before, .icon-map-pin-fill:before, .ft24:before, .icon-comment-alt2-fill:before, .icon-comment-alt2-stroke:before, .icon-checkmark:before, .icon-check-alt:before, .icon-x:before, .icon-x-altx-alt:before, .icon-rss:before, .icon-wrench:before, .st581:before, .ft27:before, .icon-cog:before, .st541:before, .ft25:before, .icon-calendar-alt-fill:before, .icon-mail:before, .f131:before, .as72:before, .contact-button:before, .st741:before, .icon-heart-fill:before, .icon-document-alt-stroke:before, .icon-plus:before, .icon-plus-alt:before, .icon-minus:before, .icon-minus-alt:before, .icon-move:before, .icon-move-alt2:before, .icon-equalizer:before, .st320:before, .ft26:before, .icon-key-stroke:before, .st521:before, .icon-new-window:before, .f132:before, .as71:before, .as71:hover:before, .st731:before, .st731:hover:before, .icon-lightbulb:before, .st531:before, .icon-spin:before, .icon-reload-alt:before, .icon-loop-alt1:before, .icon-arrow-left:before, .icon-arrow-left-alt1:before, .icon-arrow-right:before, .icon-arrow-right-alt1:before, .icon-arrow-up:before, .icon-arrow-up-alt1:before, .icon-arrow-down:before, .icon-arrow-down-alt1:before, .icon-steering-wheel:before, .icon-play:before, .icon-pause:before, .icon-stop:before, .icon-fullscreen:before, .icon-fullscreen-alt:before, .icon-iphone:before, .st350:before, .ft23:before, .icon-battery-empty:before, .icon-battery-half:before, .icon-battery-full:before, .icon-compass-2:before, .icon-at:before, .icon-info:before, .icon-left-quote:before, .icon-right-quote:before, .icon-list:before, .st330:before, .ft22:before, .icon-book-alt2:before, .icon-pen-alt2:before, .icon-pen:before, .st501:before, .ft28:before, .icon-layers:before, .st340:before, .icon-image:before, .icon-camera:before, .icon-chart-alt:before, .icon-bars:before, .st571:before, .icon-eye:before, .icon-user:before, .m-author:before, .icon-clock:before, .published:before, .updates h1:before, .icon-home-2:before, .icon-lock-stroke:before, .icon-lock-fill:before, .icon-tag-stroke:before, .tags:before, .icon-tag-fill:before, .updates h3:before, .icon-moon-stroke:before, .icon-moon-fill:before, .icon-star:before, .icon-paperclip:before {
+.icon-menu:before, .menu-toggle:before {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -18,240 +18,909 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  content: "\e5d2"; }
+
+.icon-chevron-left:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\f053"; }
+
+.icon-chevron-right:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\f054"; }
+
+.icon-chevron-up:before, .dropdown-toggle.toggle-on:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\f077"; }
+
+.icon-chevron-down:before, .dropdown-toggle:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\f078"; }
 
 .icon-home:before, .st221:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e001"; }
 
 .icon-map:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e003"; }
 
 .icon-compass:before, .st561:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e004"; }
 
 .icon-bubbles:before, .comment-count:before, .st231:before, .st551:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e005"; }
 
 .icon-users:before, .st241:before, .st591:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e006"; }
 
 .icon-umbrella:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e007"; }
 
 .icon-cloud:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e008"; }
 
 .icon-map-pin-fill:before, .ft24:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e009"; }
 
 .icon-comment-alt2-fill:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e000"; }
 
 .icon-comment-alt2-stroke:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e002"; }
 
 .icon-checkmark:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e00a"; }
 
 .icon-check-alt:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e00b"; }
 
 .icon-x:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e00c"; }
 
 .icon-x-altx-alt:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e00d"; }
 
 .icon-rss:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e00e"; }
 
 .icon-wrench:before, .st581:before, .ft27:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e00f"; }
 
 .icon-cog:before, .st541:before, .ft25:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e010"; }
 
 .icon-calendar-alt-fill:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e011"; }
 
 .icon-mail:before, .f131:before, .as72:before, .contact-button:before, .st741:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e012"; }
 
 .icon-heart-fill:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e013"; }
 
 .icon-document-alt-stroke:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e014"; }
 
 .icon-plus:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e015"; }
 
 .icon-plus-alt:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e016"; }
 
 .icon-minus:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e017"; }
 
 .icon-minus-alt:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e018"; }
 
 .icon-move:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e019"; }
 
 .icon-move-alt2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e01a"; }
 
 .icon-equalizer:before, .st320:before, .ft26:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e01b"; }
 
 .icon-key-stroke:before, .st521:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e01c"; }
 
 .icon-new-window:before, .f132:before, .as71:before, .as71:hover:before, .st731:before, .st731:hover:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e01d"; }
 
 .icon-lightbulb:before, .st531:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e01e"; }
 
 .icon-spin:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e01f"; }
 
 .icon-reload-alt:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e020"; }
 
 .icon-loop-alt1:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e021"; }
 
 .icon-arrow-left:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e022"; }
 
 .icon-arrow-left-alt1:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e023"; }
 
 .icon-arrow-right:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e024"; }
 
 .icon-arrow-right-alt1:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e025"; }
 
 .icon-arrow-up:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e026"; }
 
 .icon-arrow-up-alt1:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e027"; }
 
 .icon-arrow-down:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e028"; }
 
 .icon-arrow-down-alt1:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e029"; }
 
 .icon-steering-wheel:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e02a"; }
 
 .icon-play:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e02b"; }
 
 .icon-pause:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e02c"; }
 
 .icon-stop:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e02d"; }
 
 .icon-fullscreen:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e02e"; }
 
 .icon-fullscreen-alt:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e02f"; }
 
 .icon-iphone:before, .st350:before, .ft23:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e030"; }
 
 .icon-battery-empty:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e031"; }
 
 .icon-battery-half:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e032"; }
 
 .icon-battery-full:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e033"; }
 
-.icon-compass-2:before {
+.icon-compass2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e034"; }
 
 .icon-at:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e035"; }
 
 .icon-info:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e036"; }
 
 .icon-left-quote:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e037"; }
 
 .icon-right-quote:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e038"; }
 
 .icon-list:before, .st330:before, .ft22:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e039"; }
 
 .icon-book-alt2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e03a"; }
 
 .icon-pen-alt2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e03b"; }
 
 .icon-pen:before, .st501:before, .ft28:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e03c"; }
 
 .icon-layers:before, .st340:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e03d"; }
 
 .icon-image:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e03e"; }
 
 .icon-camera:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e03f"; }
 
 .icon-chart-alt:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e040"; }
 
 .icon-bars:before, .st571:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e041"; }
 
 .icon-eye:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e042"; }
 
 .icon-user:before, .m-author:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e043"; }
 
 .icon-clock:before, .published:before, .updates h1:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e044"; }
 
-.icon-home-2:before {
+.icon-home2:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e045"; }
 
 .icon-lock-stroke:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e046"; }
 
 .icon-lock-fill:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e047"; }
 
 .icon-tag-stroke:before, .tags:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e048"; }
 
 .icon-tag-fill:before, .updates h3:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e049"; }
 
 .icon-moon-stroke:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e04a"; }
 
 .icon-moon-fill:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e04b"; }
 
 .icon-star:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e04c"; }
 
 .icon-paperclip:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   content: "\e04d"; }
 
 /* variables */
@@ -607,7 +1276,7 @@ table {
 
 /* layout */
 /* clearing floats */
-.container:before, .hd1:before, .content:before, .present:before, .ft1:before, .footer-header:before, #footer-quad:before, .header:before, .st111:before, .container:after, .hd1:after, .content:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after, .header:after, .st111:after {
+.container:before, .hd1:before, .content:before, .present:before, .ft1:before, .footer-header:before, #footer-quad:before, .container:after, .hd1:after, .content:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after {
   content: ".";
   display: block;
   overflow: hidden;
@@ -617,10 +1286,10 @@ table {
   width: 0;
   height: 0; }
 
-.container:after, .hd1:after, .content:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after, .header:after, .st111:after {
+.container:after, .hd1:after, .content:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after {
   clear: both; }
 
-.container, .hd1, .content, .present, .ft1, .footer-header, #footer-quad, .header, .st111 {
+.container, .hd1, .content, .present, .ft1, .footer-header, #footer-quad {
   zoom: 1; }
 
 .clear-all {
@@ -689,6 +1358,13 @@ table {
 .wrapper-white, .social-stuff {
   background: rgba(255, 255, 255, 0.1);
   padding: 2em; }
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px; }
 
 a {
   color: #0088cc;
@@ -1402,9 +2078,22 @@ body {
   color: #5bb75b; }
 
 /* header */
-.header {
+.site-header {
+  zoom: 1;
   font-family: "open Sans";
   background: #0088cc; }
+  .site-header:before, .site-header:after {
+    content: "";
+    display: table; }
+  .site-header:after {
+    clear: both; }
+
+.site-logo {
+  float: left; }
+
+.custom-logo-link {
+  display: inline-block;
+  padding: 18px 8px 16px 8px; }
 
 .logo {
   color: #f4f4f4;
@@ -1427,10 +2116,147 @@ body {
 .logo img {
   padding-top: 12px; }
 
+.site-branding {
+  float: left;
+  color: #fff; }
+
+.site-title {
+  padding: 4px 0 0 0; }
+
+.site-title-1 {
+  color: #fff;
+  font-weight: 100; }
+
+.site-description {
+  font-family: "open sans";
+  font-weight: 100;
+  font-size: 0.885em;
+  text-align: right;
+  padding: 0;
+  margin-top: -19px;
+  padding-right: 1px; }
+
 .dropdown:hover .sub-nav, .dropdown:hover ul {
   visibility: visible;
   height: auto;
   opacity: 1; }
+
+.main-navigation a {
+  display: block;
+  padding: 0.8em 0;
+  position: relative;
+  text-decoration: none; }
+
+.main-navigation ul {
+  list-style: none; }
+
+.main-navigation {
+  margin-left: 0.8em; }
+
+.nav-menu {
+  display: none;
+  border: solid 1px #006699;
+  padding: 0; }
+  .nav-menu a {
+    padding: 0.5em 0.8em 0.4em;
+    color: #fff; }
+
+.main-navigation.toggled {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  padding: 1em; }
+  .main-navigation.toggled .nav-menu {
+    display: block;
+    max-height: calc(100vh - 8em);
+    overflow-y: auto; }
+
+.main-navigation li {
+  border-top: 1px solid #eaeaea;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+  position: relative; }
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a {
+  font-weight: 700; }
+
+.main-navigation .nav-menu > ul > li:first-child,
+.main-navigation .nav-menu > li:first-child {
+  border-top: 0; }
+
+.main-navigation .menu-item-has-children > a {
+  padding-right: 48px; }
+
+.main-navigation .menu-item-description {
+  color: #707070;
+  color: rgba(51, 51, 51, 0.7);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 0.5em; }
+
+.no-js .main-navigation ul ul {
+  display: block; }
+
+.dropdown-toggle {
+  background: #eee;
+  border: solid 1px #ccc;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 45px;
+  padding: 0;
+  position: absolute;
+  text-transform: lowercase;
+  /* Stop screen readers to read the text as capital letters */
+  top: 0;
+  right: 0;
+  width: 45px; }
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  background-color: #eaeaea;
+  background-color: rgba(51, 51, 51, 0.1); }
+
+.dropdown-toggle:focus {
+  outline: 1px solid #c1c1c1;
+  outline: 1px solid rgba(51, 51, 51, 0.3); }
+
+.nav-menu {
+  margin-bottom: 3em; }
+  .nav-menu li {
+    padding: 0; }
+  .nav-menu a {
+    background: #0088cc;
+    color: #fff;
+    min-width: 250px; }
+
+.menu-toggle {
+  position: fixed;
+  z-index: 1000;
+  bottom: 1em;
+  left: 1em;
+  background: #0088cc;
+  color: #fff;
+  border: solid 1px #005f8f;
+  padding: 0.5em 0.8em 0.4em;
+  transition: ease-out all 400ms; }
+  .menu-toggle.hide {
+    bottom: -2.5em; }
+
+.toggled .menu-toggle.hide {
+  bottom: 1em; }
+
+.sub-menu {
+  display: none;
+  padding-left: 0; }
+  .sub-menu a {
+    padding-left: 2em; }
+
+.sub-menu.toggled-on {
+  display: block; }
 
 /* end header */
 /* content */
@@ -1622,7 +2448,13 @@ img {
 .st111 {
   padding-top: 0;
   margin-top: 0;
+  zoom: 1;
   margin-bottom: 1em; }
+  .st111:before, .st111:after {
+    content: "";
+    display: table; }
+  .st111:after {
+    clear: both; }
 
 .st21, .st31, .st41, .st51, .st71, .st81 {
   text-align: center; }
@@ -1865,3 +2697,20 @@ footer h1 {
   margin: 1em 3em 0 0; }
 
 /* end footer */
+@media screen and (min-width: 960px) {
+  .menu-toggle {
+    display: none; }
+  .nav-menu {
+    zoom: 1;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: none; }
+    .nav-menu:before, .nav-menu:after {
+      content: "";
+      display: table; }
+    .nav-menu:after {
+      clear: both; }
+    .nav-menu li {
+      float: left;
+      border: none; } }

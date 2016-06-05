@@ -7,7 +7,7 @@
 	/* custom local imports */
 
 	@import "icon-fonts";
-	@import "variables";
+	@import "colors";
 
 	/* default imports via local cssLibrary Project - found under: https://github.com/andrejandrej/cssLibrary */
 
@@ -37,6 +37,8 @@
 	@import "blocks/wizard";
 	@import "blocks/forms";
 
+	
+
 /* end imports */
 
 /* design discoverize.com - andrej telle - teamaton.com */
@@ -47,18 +49,132 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 /* header */
 	
-	.header {@extend %clear; font-family:"open Sans"; background:$primary;}	
+	.site-header {@include group; font-family:"open Sans"; background:$primary;}	
 	.hd1 {@extend .container, .space-l-r;}
+	.site-logo {float:left;}
+	.custom-logo-link {display:inline-block; padding:18px 8px 16px 8px;}
 	.logo {color:$txt-bg; display:block; float:left; padding-top:6px; margin-right:64px; width:auto; }
 	.logo span {position:relative; top: -0.17em; font-weight:100; font-size:3.2em; padding-left:0.1em;}
 	.logo:hover {background:none;}	
 	.logo img {padding-top:12px;}	
+
+	.site-branding {float:left; color:$txt-on-primary;}
+	.site-title {padding:4px 0 0 0;}
+	.site-title-1 {color:$txt-on-primary; font-weight:100;}
+	.site-description {@include primary-font; font-weight:100; font-size:0.885em; text-align:right; padding:0; margin-top:-19px; padding-right:1px;}
 	
 	.dropdown ul {@extend .sub-nav;}
 	.dropdown:hover .sub-nav {visibility: visible; height:auto; opacity:1;}
 	
 	.menu-main-menu {@extend .nav;}
 	.menu-mini-nav {@extend .mini-nav;}
+
+	// nav via twentyfifteen wordpress theme
+
+		.main-navigation a {
+		display: block;
+		padding: 0.8em 0;
+		position: relative;
+		text-decoration: none;
+		}
+
+		.main-navigation ul {
+			list-style: none;
+		}
+
+		.main-navigation {
+			margin-left: 0.8em;
+		}
+		.nav-menu {display:none; border:solid 1px darken($primary,10); padding:0;
+			a {padding:0.5em 0.8em 0.4em; color:$txt-on-primary;}
+			}
+
+		.main-navigation.toggled {z-index:1; position:fixed; bottom:0; padding:1em;
+			.nav-menu {display: block; max-height:calc(100vh - 8em); overflow-y:auto;}
+		}
+
+		.main-navigation li {
+			border-top: 1px solid #eaeaea;
+			border-top: 1px solid rgba(51, 51, 51, 0.1);
+			position: relative;
+		}
+
+		.main-navigation .current-menu-item > a,
+		.main-navigation .current-menu-ancestor > a {
+			font-weight: 700;
+		}
+
+		.main-navigation .nav-menu > ul > li:first-child,
+		.main-navigation .nav-menu > li:first-child {
+			border-top: 0;
+		}
+
+		.main-navigation .menu-item-has-children > a {
+			padding-right: 48px;
+		}
+
+		.main-navigation .menu-item-description {
+			color: #707070;
+			color: rgba(51, 51, 51, 0.7);
+			font-family: "Noto Sans", sans-serif;
+			font-size: 12px;
+			font-size: 1.2rem;
+			font-weight: 400;
+			line-height: 1.5;
+			margin-top: 0.5em;
+		}
+
+		.no-js .main-navigation ul ul {
+			display: block;
+		}
+
+		.dropdown-toggle {@extend .icon-chevron-down;
+			background: #eee;
+			border: solid 1px #ccc;
+			-webkit-box-sizing: content-box;
+			-moz-box-sizing: content-box;
+			box-sizing: content-box;
+			height: 45px;
+			padding: 0;
+			position: absolute;
+			text-transform: lowercase; /* Stop screen readers to read the text as capital letters */
+			top: 0;
+			right: 0;
+			width: 45px;
+		}
+
+		.dropdown-toggle:hover,
+		.dropdown-toggle:focus {
+			background-color: #eaeaea;
+			background-color: rgba(51, 51, 51, 0.1);
+		}
+
+		.dropdown-toggle:focus {
+			outline: 1px solid #c1c1c1;
+			outline: 1px solid rgba(51, 51, 51, 0.3);
+		}
+
+		.dropdown-toggle.toggle-on {@extend .icon-chevron-up;}
+
+		.nav-menu {margin-bottom:3em;
+			li {padding:0;}
+			a {background:$primary; color:$txt-on-primary; min-width:250px;}
+		}
+
+
+		// open nav button
+		.menu-toggle {@extend .icon-menu; position:fixed; z-index:1000; bottom:1em; left:1em; background: $primary; color:$txt-on-primary; border:solid 1px darken($primary,12); padding:0.5em 0.8em 0.4em;
+			transition:ease-out all 400ms;
+			&.hide {bottom:-2.5em;}
+			}
+		.toggled .menu-toggle.hide {bottom:1em;}
+
+		.sub-menu {display:none; padding-left:0;
+			a {padding-left:2em;}
+			}
+		.sub-menu.toggled-on {display:block;}
+
+	// end nav 
 
 /* end header */
 
@@ -180,7 +296,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 		.st11, .st12 {@extend .bx50;}
 		.st12 {margin-top:8px;}
 		.st110 {@extend %img-round, %img-left; margin-top:-5px;}
-		.st111 {padding-top:0; margin-top:0; @extend %clear; margin-bottom:1em;}
+		.st111 {padding-top:0; margin-top:0; @include group; margin-bottom:1em;}
 		
 		.st25 {@extend .italic;}
 		
@@ -312,3 +428,4 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 /* end footer */
 
 
+@import "respond";

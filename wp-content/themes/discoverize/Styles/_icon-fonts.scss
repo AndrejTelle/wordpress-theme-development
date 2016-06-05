@@ -6,16 +6,16 @@
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('icon-fonts/icomoon.eot');
-	src:url('icon-fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('icon-fonts/icomoon.woff') format('woff'),
-		url('icon-fonts/icomoon.ttf') format('truetype'),
-		url('icon-fonts/icomoon.svg#icomoon') format('svg');
+	src:url('icon-fonts/fonts/icomoon.eot');
+	src:url('icon-fonts/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('icon-fonts/fonts/icomoon.woff') format('woff'),
+		url('icon-fonts/fonts/icomoon.ttf') format('truetype'),
+		url('icon-fonts/fonts/icomoon.svg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;	
 }
 
-.font-icon {
+@mixin font-icon {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -28,237 +28,253 @@
 
 
 
-.icon-home:before {@extend .font-icon; 
-	content: "\e001";
+.icon-menu:before {@include font-icon;
+    content: "\e5d2";
 }
-.icon-map:before {@extend .font-icon; 
-	content: "\e003";
+.icon-chevron-left:before {@include font-icon;
+    content: "\f053";
 }
-.icon-compass:before {@extend .font-icon; 
-	content: "\e004";
+.icon-chevron-right:before {@include font-icon;
+    content: "\f054";
 }
-.icon-bubbles:before {@extend .font-icon; 
-	content: "\e005";
+.icon-chevron-up:before {@include font-icon;
+    content: "\f077";
 }
-.icon-users:before {@extend .font-icon; 
-	content: "\e006";
+.icon-chevron-down:before {@include font-icon;
+    content: "\f078";
 }
-.icon-umbrella:before {@extend .font-icon; 
-	content: "\e007";
+.icon-home:before {@include font-icon;
+    content: "\e001";
 }
-.icon-cloud:before {@extend .font-icon; 
-	content: "\e008";
+.icon-map:before {@include font-icon;
+    content: "\e003";
 }
-.icon-map-pin-fill:before {@extend .font-icon; 
-	content: "\e009";
+.icon-compass:before {@include font-icon;
+    content: "\e004";
 }
-.icon-comment-alt2-fill:before {@extend .font-icon; 
-	content: "\e000";
+.icon-bubbles:before {@include font-icon;
+    content: "\e005";
 }
-.icon-comment-alt2-stroke:before {@extend .font-icon; 
-	content: "\e002";
+.icon-users:before {@include font-icon;
+    content: "\e006";
 }
-.icon-checkmark:before {@extend .font-icon; 
-	content: "\e00a";
+.icon-umbrella:before {@include font-icon;
+    content: "\e007";
 }
-.icon-check-alt:before {@extend .font-icon; 
-	content: "\e00b";
+.icon-cloud:before {@include font-icon;
+    content: "\e008";
 }
-.icon-x:before {@extend .font-icon; 
-	content: "\e00c";
+.icon-map-pin-fill:before {@include font-icon;
+    content: "\e009";
 }
-.icon-x-altx-alt:before {@extend .font-icon; 
-	content: "\e00d";
+.icon-comment-alt2-fill:before {@include font-icon;
+    content: "\e000";
 }
-.icon-rss:before {@extend .font-icon; 
-	content: "\e00e";
+.icon-comment-alt2-stroke:before {@include font-icon;
+    content: "\e002";
 }
-.icon-wrench:before {@extend .font-icon; 
-	content: "\e00f";
+.icon-checkmark:before {@include font-icon;
+    content: "\e00a";
 }
-.icon-cog:before {@extend .font-icon; 
-	content: "\e010";
+.icon-check-alt:before {@include font-icon;
+    content: "\e00b";
 }
-.icon-calendar-alt-fill:before {@extend .font-icon; 
-	content: "\e011";
+.icon-x:before {@include font-icon;
+    content: "\e00c";
 }
-.icon-mail:before {@extend .font-icon; 
-	content: "\e012";
+.icon-x-altx-alt:before {@include font-icon;
+    content: "\e00d";
 }
-.icon-heart-fill:before {@extend .font-icon; 
-	content: "\e013";
+.icon-rss:before {@include font-icon;
+    content: "\e00e";
 }
-.icon-document-alt-stroke:before {@extend .font-icon; 
-	content: "\e014";
+.icon-wrench:before {@include font-icon;
+    content: "\e00f";
 }
-.icon-plus:before {@extend .font-icon; 
-	content: "\e015";
+.icon-cog:before {@include font-icon;
+    content: "\e010";
 }
-.icon-plus-alt:before {@extend .font-icon; 
-	content: "\e016";
+.icon-calendar-alt-fill:before {@include font-icon;
+    content: "\e011";
 }
-.icon-minus:before {@extend .font-icon; 
-	content: "\e017";
+.icon-mail:before {@include font-icon;
+    content: "\e012";
 }
-.icon-minus-alt:before {@extend .font-icon; 
-	content: "\e018";
+.icon-heart-fill:before {@include font-icon;
+    content: "\e013";
 }
-.icon-move:before {@extend .font-icon; 
-	content: "\e019";
+.icon-document-alt-stroke:before {@include font-icon;
+    content: "\e014";
 }
-.icon-move-alt2:before {@extend .font-icon; 
-	content: "\e01a";
+.icon-plus:before {@include font-icon;
+    content: "\e015";
 }
-.icon-equalizer:before {@extend .font-icon; 
-	content: "\e01b";
+.icon-plus-alt:before {@include font-icon;
+    content: "\e016";
 }
-.icon-key-stroke:before {@extend .font-icon; 
-	content: "\e01c";
+.icon-minus:before {@include font-icon;
+    content: "\e017";
 }
-.icon-new-window:before {@extend .font-icon; 
-	content: "\e01d";
+.icon-minus-alt:before {@include font-icon;
+    content: "\e018";
 }
-.icon-lightbulb:before {@extend .font-icon; 
-	content: "\e01e";
+.icon-move:before {@include font-icon;
+    content: "\e019";
 }
-.icon-spin:before {@extend .font-icon; 
-	content: "\e01f";
+.icon-move-alt2:before {@include font-icon;
+    content: "\e01a";
 }
-.icon-reload-alt:before {@extend .font-icon; 
-	content: "\e020";
+.icon-equalizer:before {@include font-icon;
+    content: "\e01b";
 }
-.icon-loop-alt1:before {@extend .font-icon; 
-	content: "\e021";
+.icon-key-stroke:before {@include font-icon;
+    content: "\e01c";
 }
-.icon-arrow-left:before {@extend .font-icon; 
-	content: "\e022";
+.icon-new-window:before {@include font-icon;
+    content: "\e01d";
 }
-.icon-arrow-left-alt1:before {@extend .font-icon; 
-	content: "\e023";
+.icon-lightbulb:before {@include font-icon;
+    content: "\e01e";
 }
-.icon-arrow-right:before {@extend .font-icon; 
-	content: "\e024";
+.icon-spin:before {@include font-icon;
+    content: "\e01f";
 }
-.icon-arrow-right-alt1:before {@extend .font-icon; 
-	content: "\e025";
+.icon-reload-alt:before {@include font-icon;
+    content: "\e020";
 }
-.icon-arrow-up:before {@extend .font-icon; 
-	content: "\e026";
+.icon-loop-alt1:before {@include font-icon;
+    content: "\e021";
 }
-.icon-arrow-up-alt1:before {@extend .font-icon; 
-	content: "\e027";
+.icon-arrow-left:before {@include font-icon;
+    content: "\e022";
 }
-.icon-arrow-down:before {@extend .font-icon; 
-	content: "\e028";
+.icon-arrow-left-alt1:before {@include font-icon;
+    content: "\e023";
 }
-.icon-arrow-down-alt1:before {@extend .font-icon; 
-	content: "\e029";
+.icon-arrow-right:before {@include font-icon;
+    content: "\e024";
 }
-.icon-steering-wheel:before {@extend .font-icon; 
-	content: "\e02a";
+.icon-arrow-right-alt1:before {@include font-icon;
+    content: "\e025";
 }
-.icon-play:before {@extend .font-icon; 
-	content: "\e02b";
+.icon-arrow-up:before {@include font-icon;
+    content: "\e026";
 }
-.icon-pause:before {@extend .font-icon; 
-	content: "\e02c";
+.icon-arrow-up-alt1:before {@include font-icon;
+    content: "\e027";
 }
-.icon-stop:before {@extend .font-icon; 
-	content: "\e02d";
+.icon-arrow-down:before {@include font-icon;
+    content: "\e028";
 }
-.icon-fullscreen:before {@extend .font-icon; 
-	content: "\e02e";
+.icon-arrow-down-alt1:before {@include font-icon;
+    content: "\e029";
 }
-.icon-fullscreen-alt:before {@extend .font-icon; 
-	content: "\e02f";
+.icon-steering-wheel:before {@include font-icon;
+    content: "\e02a";
 }
-.icon-iphone:before {@extend .font-icon; 
-	content: "\e030";
+.icon-play:before {@include font-icon;
+    content: "\e02b";
 }
-.icon-battery-empty:before {@extend .font-icon; 
-	content: "\e031";
+.icon-pause:before {@include font-icon;
+    content: "\e02c";
 }
-.icon-battery-half:before {@extend .font-icon; 
-	content: "\e032";
+.icon-stop:before {@include font-icon;
+    content: "\e02d";
 }
-.icon-battery-full:before {@extend .font-icon; 
-	content: "\e033";
+.icon-fullscreen:before {@include font-icon;
+    content: "\e02e";
 }
-.icon-compass-2:before {@extend .font-icon; 
-	content: "\e034";
+.icon-fullscreen-alt:before {@include font-icon;
+    content: "\e02f";
 }
-.icon-at:before {@extend .font-icon; 
-	content: "\e035";
+.icon-iphone:before {@include font-icon;
+    content: "\e030";
 }
-.icon-info:before {@extend .font-icon; 
-	content: "\e036";
+.icon-battery-empty:before {@include font-icon;
+    content: "\e031";
 }
-.icon-left-quote:before {@extend .font-icon; 
-	content: "\e037";
+.icon-battery-half:before {@include font-icon;
+    content: "\e032";
 }
-.icon-right-quote:before {@extend .font-icon; 
-	content: "\e038";
+.icon-battery-full:before {@include font-icon;
+    content: "\e033";
 }
-.icon-list:before {@extend .font-icon; 
-	content: "\e039";
+.icon-compass2:before {@include font-icon;
+    content: "\e034";
 }
-.icon-book-alt2:before {@extend .font-icon; 
-	content: "\e03a";
+.icon-at:before {@include font-icon;
+    content: "\e035";
 }
-.icon-pen-alt2:before {@extend .font-icon; 
-	content: "\e03b";
+.icon-info:before {@include font-icon;
+    content: "\e036";
 }
-.icon-pen:before {@extend .font-icon; 
-	content: "\e03c";
+.icon-left-quote:before {@include font-icon;
+    content: "\e037";
 }
-.icon-layers:before {@extend .font-icon; 
-	content: "\e03d";
+.icon-right-quote:before {@include font-icon;
+    content: "\e038";
 }
-.icon-image:before {@extend .font-icon; 
-	content: "\e03e";
+.icon-list:before {@include font-icon;
+    content: "\e039";
 }
-.icon-camera:before {@extend .font-icon; 
-	content: "\e03f";
+.icon-book-alt2:before {@include font-icon;
+    content: "\e03a";
 }
-.icon-chart-alt:before {@extend .font-icon; 
-	content: "\e040";
+.icon-pen-alt2:before {@include font-icon;
+    content: "\e03b";
 }
-.icon-bars:before {@extend .font-icon; 
-	content: "\e041";
+.icon-pen:before {@include font-icon;
+    content: "\e03c";
 }
-.icon-eye:before {@extend .font-icon; 
-	content: "\e042";
+.icon-layers:before {@include font-icon;
+    content: "\e03d";
 }
-.icon-user:before {@extend .font-icon; 
-	content: "\e043";
+.icon-image:before {@include font-icon;
+    content: "\e03e";
 }
-.icon-clock:before {@extend .font-icon; 
-	content: "\e044";
+.icon-camera:before {@include font-icon;
+    content: "\e03f";
 }
-.icon-home-2:before {@extend .font-icon; 
-	content: "\e045";
+.icon-chart-alt:before {@include font-icon;
+    content: "\e040";
 }
-.icon-lock-stroke:before {@extend .font-icon; 
-	content: "\e046";
+.icon-bars:before {@include font-icon;
+    content: "\e041";
 }
-.icon-lock-fill:before {@extend .font-icon; 
-	content: "\e047";
+.icon-eye:before {@include font-icon;
+    content: "\e042";
 }
-.icon-tag-stroke:before {@extend .font-icon; 
-	content: "\e048";
+.icon-user:before {@include font-icon;
+    content: "\e043";
 }
-.icon-tag-fill:before {@extend .font-icon; 
-	content: "\e049";
+.icon-clock:before {@include font-icon;
+    content: "\e044";
 }
-.icon-moon-stroke:before {@extend .font-icon; 
-	content: "\e04a";
+.icon-home2:before {@include font-icon;
+    content: "\e045";
 }
-.icon-moon-fill:before {@extend .font-icon; 
-	content: "\e04b";
+.icon-lock-stroke:before {@include font-icon;
+    content: "\e046";
 }
-.icon-star:before {@extend .font-icon; 
-	content: "\e04c";
+.icon-lock-fill:before {@include font-icon;
+    content: "\e047";
 }
-.icon-paperclip:before {@extend .font-icon; 
-	content: "\e04d";
+.icon-tag-stroke:before {@include font-icon;
+    content: "\e048";
 }
+.icon-tag-fill:before {@include font-icon;
+    content: "\e049";
+}
+.icon-moon-stroke:before {@include font-icon;
+    content: "\e04a";
+}
+.icon-moon-fill:before {@include font-icon;
+    content: "\e04b";
+}
+.icon-star:before {@include font-icon;
+    content: "\e04c";
+}
+.icon-paperclip:before {@include font-icon;
+    content: "\e04d";
+}
+

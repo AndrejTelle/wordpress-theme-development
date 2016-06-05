@@ -46,7 +46,8 @@
 	body {font-family:verdana;}
 	/* Import Google Web Fonts*/
 	@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-	%primary-font {font-family: "open sans";}
+	@mixin primary-font{font-family:"open sans";}
+	%primary-font {@include primary-font;}
 	
 	h1 {font-size:3em;}
 	h2 {font-size:2.3em;}
