@@ -50,6 +50,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 /* header */
 	
 	.site-header {@include group; font-family:"open Sans"; background:$primary;}	
+	.header-inside {@include center;}
 	.hd1 {@extend .container, .space-l-r;}
 	.site-logo {float:left;}
 	.custom-logo-link {display:inline-block; padding:18px 8px 16px 8px;}
@@ -185,7 +186,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 /* content */
 	
-	.content {margin-bottom:3em;@extend .container; min-height:500px;}
+	.site-content {@include center; margin-bottom:3em; min-height:500px;}
 	
 	/* messages */
 	
@@ -213,8 +214,10 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 	/* end presentation block */
 	
-	.aside-2 .content {@extend .bx75;}
-	.aside-second {@extend .bx25;}
+
+	// blog page layout 
+		.content-area {@extend .bx75;}
+		.widget-area {@extend .bx25;}
 
 	
 

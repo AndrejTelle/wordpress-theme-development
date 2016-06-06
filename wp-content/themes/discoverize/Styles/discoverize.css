@@ -1276,7 +1276,7 @@ table {
 
 /* layout */
 /* clearing floats */
-.container:before, .hd1:before, .content:before, .present:before, .ft1:before, .footer-header:before, #footer-quad:before, .container:after, .hd1:after, .content:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after {
+.container:before, .hd1:before, .present:before, .ft1:before, .footer-header:before, #footer-quad:before, .container:after, .hd1:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after {
   content: ".";
   display: block;
   overflow: hidden;
@@ -1286,10 +1286,10 @@ table {
   width: 0;
   height: 0; }
 
-.container:after, .hd1:after, .content:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after {
+.container:after, .hd1:after, .present:after, .ft1:after, .footer-header:after, #footer-quad:after {
   clear: both; }
 
-.container, .hd1, .content, .present, .ft1, .footer-header, #footer-quad {
+.container, .hd1, .present, .ft1, .footer-header, #footer-quad {
   zoom: 1; }
 
 .clear-all {
@@ -1311,7 +1311,7 @@ table {
   margin: 0 auto;
   display: block; }
 
-.container, .hd1, .content, .present, .ft1, .footer-header, #footer-quad, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .aside-2 .content, .bx50, .st11, .st12, .bx25, .f13, .aside-second, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth, .f131, .as72, .contact-button, .st741, .f131:hover, .as72:hover, .contact-button:hover, .st741:hover, .f132, .widget-newsletter-abo-main .button, .widget-newsletter-abo-sidebar .button, .f132:hover, .as71, .as71:hover, .st731, .st731:hover, .img-frame, .blog-post img, .st221, .st231, .st241, .st320, .st330, .st340, .st350, .widget-newsletter-abo-main input, .widget-newsletter-abo-sidebar input {
+.container, .hd1, .present, .ft1, .footer-header, #footer-quad, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .content-area, .bx50, .st11, .st12, .bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth, .f131, .as72, .contact-button, .st741, .f131:hover, .as72:hover, .contact-button:hover, .st741:hover, .f132, .widget-newsletter-abo-main .button, .widget-newsletter-abo-sidebar .button, .f132:hover, .as71, .as71:hover, .st731, .st731:hover, .img-frame, .blog-post img, .st221, .st231, .st241, .st320, .st330, .st340, .st350, .widget-newsletter-abo-main input, .widget-newsletter-abo-sidebar input {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;
@@ -1326,14 +1326,14 @@ table {
 .space-b-xl, .present {
   padding-bottom: 3em; }
 
-.space-all, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .aside-2 .content, .bx50, .st11, .st12, .bx25, .f13, .aside-second, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
+.space-all, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .content-area, .bx50, .st11, .st12, .bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
   padding: 12px; }
 
-.container, .hd1, .content, .present, .ft1, .footer-header, #footer-quad {
+.container, .hd1, .present, .ft1, .footer-header, #footer-quad {
   width: 984px;
   margin: 0 auto; }
 
-.bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .aside-2 .content, .bx50, .st11, .st12, .bx25, .f13, .aside-second, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
+.bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .content-area, .bx50, .st11, .st12, .bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
   float: left; }
 
 .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52 {
@@ -1342,13 +1342,13 @@ table {
 .bx66 {
   width: 66.6666%; }
 
-.bx75, .aside-2 .content {
+.bx75, .content-area {
   width: 75%; }
 
 .bx50, .st11, .st12 {
   width: 50%; }
 
-.bx25, .f13, .aside-second, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
+.bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
   width: 25%; }
 
 .wrapper, form, .message, .user-voice-widget, .comment .text, .widget-newsletter-abo-main, .widget-newsletter-abo-sidebar {
@@ -2088,6 +2088,22 @@ body {
   .site-header:after {
     clear: both; }
 
+.header-inside {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  zoom: 1;
+  width: 984px;
+  margin: 0 auto; }
+  .header-inside:before, .header-inside:after {
+    content: "";
+    display: table; }
+  .header-inside:after {
+    clear: both; }
+
 .site-logo {
   float: left; }
 
@@ -2270,9 +2286,23 @@ body {
 
 /* end header */
 /* content */
-.content {
+.site-content {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  zoom: 1;
+  width: 984px;
+  margin: 0 auto;
   margin-bottom: 3em;
   min-height: 500px; }
+  .site-content:before, .site-content:after {
+    content: "";
+    display: table; }
+  .site-content:after {
+    clear: both; }
 
 /* messages */
 .message {
