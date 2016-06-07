@@ -1307,17 +1307,31 @@ table {
   clear: right; }
 
 /* end clearing floats */
-.center, .st221, .st231, .st241, .st320, .st330, .st340, .st350 {
-  margin: 0 auto;
-  display: block; }
-
-.container, .hd1, .present, .ft1, .footer-header, #footer-quad, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .content-area, .bx50, .st11, .st12, .bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth, .f131, .as72, .contact-button, .st741, .f131:hover, .as72:hover, .contact-button:hover, .st741:hover, .f132, .widget-newsletter-abo-main .button, .widget-newsletter-abo-sidebar .button, .f132:hover, .as71, .as71:hover, .st731, .st731:hover, .img-frame, .blog-post img, .st221, .st231, .st241, .st320, .st330, .st340, .st350, .widget-newsletter-abo-main input, .widget-newsletter-abo-sidebar input {
+.container, .hd1, .present, .ft1, .footer-header, #footer-quad, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .bx50, .st11, .st12, .bx25, .f13, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth, .f131, .as72, .contact-button, .st741, .f131:hover, .as72:hover, .contact-button:hover, .st741:hover, .f132, .widget-newsletter-abo-main .button, .widget-newsletter-abo-sidebar .button, .f132:hover, .as71, .as71:hover, .st731, .st731:hover, .img-frame, .blog-post img, .st221, .st231, .st241, .st320, .st330, .st340, .st350, .widget-newsletter-abo-main input, .widget-newsletter-abo-sidebar input {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;
   /* Firefox, other Gecko */
   box-sizing: border-box;
   /* Opera/IE 8+ */ }
+
+.center, .header-inside, .site-content, .st221, .st231, .st241, .st320, .st330, .st340, .st350 {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  zoom: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px; }
+  .center:before, .header-inside:before, .site-content:before, .st221:before, .st231:before, .st241:before, .st320:before, .st330:before, .st340:before, .st350:before, .center:after, .header-inside:after, .site-content:after, .st221:after, .st231:after, .st241:after, .st320:after, .st330:after, .st340:after, .st350:after {
+    content: "";
+    display: table; }
+  .center:after, .header-inside:after, .site-content:after, .st221:after, .st231:after, .st241:after, .st320:after, .st330:after, .st340:after, .st350:after {
+    clear: both; }
 
 .space-l-r, .border-heading, .st21, .st31, .st41, .st51, .st71, .st81, .st91, .ft11, .hd1, .present {
   padding-left: 12px;
@@ -1326,14 +1340,14 @@ table {
 .space-b-xl, .present {
   padding-bottom: 3em; }
 
-.space-all, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .content-area, .bx50, .st11, .st12, .bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
+.space-all, .bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .bx50, .st11, .st12, .bx25, .f13, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
   padding: 12px; }
 
 .container, .hd1, .present, .ft1, .footer-header, #footer-quad {
   width: 984px;
   margin: 0 auto; }
 
-.bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .content-area, .bx50, .st11, .st12, .bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
+.bx, .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52, .bx66, .bx75, .bx50, .st11, .st12, .bx25, .f13, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
   float: left; }
 
 .bx33, .tripel-first, .tripel-second, .tripel-third, .st22, .st23, .st24, .st42, .st43, .st44, .st52, .st82, .st83, .st84, .ft52 {
@@ -1342,13 +1356,13 @@ table {
 .bx66 {
   width: 66.6666%; }
 
-.bx75, .content-area {
+.bx75 {
   width: 75%; }
 
 .bx50, .st11, .st12 {
   width: 50%; }
 
-.bx25, .f13, .widget-area, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
+.bx25, .f13, .st32, .st33, .st34, .st35, #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {
   width: 25%; }
 
 .wrapper, form, .message, .user-voice-widget, .comment .text, .widget-newsletter-abo-main, .widget-newsletter-abo-sidebar {
@@ -1384,7 +1398,7 @@ ul {
 li {
   padding-bottom: 1em; }
 
-.blog-posts, .archive-trail + ul, .aside-second ul, footer ul {
+.blog-posts, .archive-trail + ul, .widget-area ul, footer ul {
   padding: 0;
   list-style: outside none; }
 
@@ -2088,28 +2102,12 @@ body {
   .site-header:after {
     clear: both; }
 
-.header-inside {
-  -webkit-box-sizing: border-box;
-  /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;
-  /* Firefox, other Gecko */
-  box-sizing: border-box;
-  /* Opera/IE 8+ */
-  zoom: 1;
-  width: 984px;
-  margin: 0 auto; }
-  .header-inside:before, .header-inside:after {
-    content: "";
-    display: table; }
-  .header-inside:after {
-    clear: both; }
-
 .site-logo {
   float: left; }
 
 .custom-logo-link {
   display: inline-block;
-  padding: 18px 8px 16px 8px; }
+  padding: 18px 8px 16px 0; }
 
 .logo {
   color: #f4f4f4;
@@ -2287,22 +2285,8 @@ body {
 /* end header */
 /* content */
 .site-content {
-  -webkit-box-sizing: border-box;
-  /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;
-  /* Firefox, other Gecko */
-  box-sizing: border-box;
-  /* Opera/IE 8+ */
-  zoom: 1;
-  width: 984px;
-  margin: 0 auto;
   margin-bottom: 3em;
   min-height: 500px; }
-  .site-content:before, .site-content:after {
-    content: "";
-    display: table; }
-  .site-content:after {
-    clear: both; }
 
 /* messages */
 .message {
@@ -2415,13 +2399,32 @@ img {
 .archives ul.archiveMonthList {
   margin-top: 1em; }
 
-/* aside second */
-.aside-second {
+.widget-area {
   background: rgba(0, 0, 0, 0.05);
   margin-top: 3em; }
+  .widget-area h1 {
+    font-size: 1.8em; }
+  .widget-area h2 {
+    font-size: 2.2em;
+    padding: 0.2em 0 0; }
 
-.aside-second h1 {
-  font-size: 1.8em; }
+.widget {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  float: left;
+  width: 25%;
+  zoom: 1;
+  padding: 0 12px;
+  float: left; }
+  .widget:before, .widget:after {
+    content: "";
+    display: table; }
+  .widget:after {
+    clear: both; }
 
 .widget-demo-sidebar, .widget-kontakt-sidebar {
   border-top: solid 1px #ccc;
@@ -2737,7 +2740,28 @@ footer h1 {
   margin: 1em 3em 0 0; }
 
 /* end footer */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 984px) {
+  .center, .header-inside, .site-content, .st221, .st231, .st241, .st320, .st330, .st340, .st350 {
+    width: 984px; }
+  .content-area {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    float: left;
+    width: 75%;
+    padding-right: 24px; }
+  .widget-area {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    float: left;
+    width: 25%; }
   .main-navigation.toggled {
     position: static; }
   .menu-toggle {
@@ -2779,4 +2803,7 @@ footer h1 {
     .sub-menu .dropdown-toggle {
       margin-top: 8px; }
   .sub-menu.toggled-on, .nav-menu li:hover .sub-menu {
-    display: block; } }
+    display: block; }
+  .widget {
+    width: 100%;
+    float: none; } }

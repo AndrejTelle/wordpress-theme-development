@@ -50,10 +50,10 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 /* header */
 	
 	.site-header {@include group; font-family:"open Sans"; background:$primary;}	
-	.header-inside {@include center;}
+	.header-inside {@extend .center;}
 	.hd1 {@extend .container, .space-l-r;}
 	.site-logo {float:left;}
-	.custom-logo-link {display:inline-block; padding:18px 8px 16px 8px;}
+	.custom-logo-link {display:inline-block; padding:18px 8px 16px 0;}
 	.logo {color:$txt-bg; display:block; float:left; padding-top:6px; margin-right:64px; width:auto; }
 	.logo span {position:relative; top: -0.17em; font-weight:100; font-size:3.2em; padding-left:0.1em;}
 	.logo:hover {background:none;}	
@@ -186,7 +186,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 /* content */
 	
-	.site-content {@include center; margin-bottom:3em; min-height:500px;}
+	.site-content {@extend .center; margin-bottom:3em; min-height:500px;}
 	
 	/* messages */
 	
@@ -213,12 +213,6 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 		.my-page img.brand {border:none;}
 
 	/* end presentation block */
-	
-
-	// blog page layout 
-		.content-area {@extend .bx75;}
-		.widget-area {@extend .bx25;}
-
 	
 
 	#layout-tripel-container {margin-top:-5em;}
@@ -248,13 +242,14 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 	
 	.user-voice-widget {@extend .wrapper}
 	
-	/* aside second */
-	
-		.aside-second {background:$bg-grey-transparent; margin-top:3em;}
-		
-		.aside-second ul {@extend %list-no-bullets;}
-		
-		.aside-second h1 {font-size:1.8em;}
+	// widget 
+
+		.widget-area {background:$bg-grey-transparent; margin-top:3em;
+			ul {@extend %list-no-bullets;}
+			h1 {font-size:1.8em;}
+			h2 {font-size:2.2em; padding:0.2em 0 0;}
+			}
+		.widget {@include bx(25%); @include group; padding:0 12px; float:left; }
 
 		.widget-demo-sidebar, .widget-kontakt-sidebar {border-top: solid 1px #ccc; font-size:0.8em; text-align:center; padding: 1em 0 2em 0;}
 

@@ -2,6 +2,17 @@
 
 /* clearing floats */
 
+    @mixin group{
+        &:before, &:after{
+            content:"";
+            display:table;
+        }
+        &:after {
+            clear:both;
+        }
+        zoom:1;
+    }
+
 	%clear:before, %clear:after,{content: "."; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0;}
 
 	%clear:after,{clear: both;}
@@ -14,27 +25,16 @@
 
 /* end clearing floats */
 
-@mixin center {@include border-box; @include group; width:984px; margin:0 auto;}
-
-.center {margin:0 auto; display:block;}
-
-@mixin group{
-    &:before, &:after{
-        content:"";
-        display:table;
-    }
-    &:after {
-        clear:both;
-    }
-    zoom:1;
-}
-
 @mixin border-box {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
     }
 %border-box {@include border-box;}
+
+@mixin center {@include border-box; @include group; width:100%; margin:0 auto; padding-left:12px; padding-right:12px;}
+
+.center {@include center;}
 
 .space-l-r {padding-left:12px; padding-right:12px;}
 .space-b-xl{padding-bottom:3em;}
@@ -43,6 +43,7 @@
 
 .container {@extend %clear, %border-box; width:984px; margin: 0 auto;}
 			
+@mixin bx($width:100%){@include border-box; float:left; width:$width;}
 .bx {@extend %border-box, .space-all; float:left; }
 
 .bx33 {@extend .bx; width:33.3333%;}
