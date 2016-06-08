@@ -11,13 +11,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<p class="entry-meta">
+		<div class="entry-meta">
 			<?php discoverize_posted_on(); ?>			
 			<?php discoverize_entry_footer(); ?>
-		</p>
-		<p class="entry-info">		
-			
-		</p>
+		</div>
 
 	</header><!-- .entry-header -->
 

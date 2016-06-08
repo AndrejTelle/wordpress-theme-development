@@ -49,6 +49,10 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 .special {color:#5bb75b;}
 
+// layout
+
+	.content-area {margin-top:1.5em;}
+
 /* header */
 	
 	.site-header {@include group; font-family:"open Sans"; background:$primary;}	
@@ -340,6 +344,32 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 			}
 		}
 
+	// index pages, archives, etc
+
+		.page-header {@include seperator-bottom;}
+		.page-title {font-size:2em; font-style:italic; text-align:center;}
+
+		.entry-content {margin-bottom:2em;}
+		.type-post {@include seperator-bottom;}
+		.continue-reading {text-align:center; margin-bottom:3em;}
+		.continue-reading-link {@extend .icon-arrow-right; background:$primary; color:$txt-on-primary; padding:0.6em 0.8em 0.5em; 
+			&:after {content:"...";}
+			}
+
+		// pagination
+		.paging-navigation {text-align:center;
+			ul {list-style-type:none; display:inline-block; padding:0;}
+			li {display:Inline-block;}
+			li a {padding:0.6em 0.8em 0.5em; margin:0.5em;}
+			.current {background:$primary; color:$txt-on-primary; padding:0.6em 0.8em 0.5em; margin:0.5em;}
+			.prev {@extend .icon-arrow-left;
+				&:before {margin-right:6px;}
+				}
+			.next {@extend .icon-arrow-right-after;
+				&:after {margin-left:6px;}
+				}
+		}
+
 	
 	/* start */
 		
@@ -457,14 +487,12 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 /* footer */
 
-	footer {background:$primary; color:$txt-on-primary; min-height:200px; margin-top:4em;}
-	footer a {color:$txt-on-primary;}
-	.ft1 {@extend .container;}
+	.site-footer {background:$primary; color:$txt-on-primary; min-height:200px; margin-top:4em;
+		a {color:$txt-on-primary;}
+		h1 {font-size:1.8em;}
+		ul {@extend %list-no-bullets;}
+		}
 
-	footer h1 {font-size:1.8em;}
-	
-	footer ul {@extend %list-no-bullets;}
-	
 	.footer-header {text-align:center; @extend .center;}
 	.footer-header .logo {float:none;margin:1em 0 0 0; font-family:"open sans";}
 	.social-stuff {@extend .wrapper-white; padding:1.5em 2em 0.5em 2em;}
