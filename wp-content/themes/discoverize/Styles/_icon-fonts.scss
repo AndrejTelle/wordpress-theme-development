@@ -27,7 +27,9 @@
 }
 
 
-
+.icon-search:before {@include font-icon;
+    content: "\f002";
+}
 .icon-menu:before {@include font-icon;
     content: "\e5d2";
 }

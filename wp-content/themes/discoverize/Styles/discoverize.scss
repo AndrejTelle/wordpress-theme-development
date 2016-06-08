@@ -74,31 +74,21 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 	// nav via twentyfifteen wordpress theme
 
-		.main-navigation a {
-		display: block;
-		padding: 0.8em 0;
-		position: relative;
-		text-decoration: none;
-		&:hover {background:lighten($primary,6);}
-		}
+		.main-navigation {margin-left: 0.8em; float:left;
+			a {display: block; padding: 0.8em 0; position: relative; text-decoration: none;}
+			a:hover {background:lighten($primary,6);}
+			ul {list-style: none;}
+			li {position: relative;}			
+			> div {float:left;}
+			}
+		
 
-		.main-navigation ul {
-			list-style: none;
-		}
-
-		.main-navigation {
-			margin-left: 0.8em;
-		}
 		.nav-menu {display:none; border:solid 1px darken($primary,10); border-bottom:none; padding:0;
 			a {padding:0.7em 0.8em 0.6em; color:$txt-on-primary; border-bottom:solid 1px darken($primary,10);}
 			}
 
 		.main-navigation.toggled {z-index:1; position:fixed; bottom:2em; padding:0; margin:0; left:0;
 			.nav-menu {display: block; max-height:calc(100vh - 8em); overflow-y:auto;}
-		}
-
-		.main-navigation li {
-			position: relative;
 		}
 
 		.main-navigation .current-menu-item > a,
@@ -166,6 +156,12 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 			a {background:$primary; color:$txt-on-primary; min-width:250px;}
 		}
 
+		// text search in header
+
+		.header-widget {float:right;
+			form {background:none; margin:0; padding:34px 0 0 0;}
+			.search-submit {@include rounded(2px, 2px, 2px, 2px); @extend .icon-search; border:solid 1px darken($primary,15); background:darken($primary,10); color:$txt-on-primary; padding:3px 7px 2px; position:relative; top:2px; margin-left:2px;}
+			}
 
 		// open nav button
 		.menu-toggle {@extend .icon-menu; position:fixed; z-index:1000; bottom:1em; left:1em; background: $primary; color:$txt-on-primary; border:solid 1px darken($primary,12); padding:0.5em 0.8em 0.4em;

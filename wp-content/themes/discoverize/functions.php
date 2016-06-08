@@ -109,6 +109,16 @@ function discoverize_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(
+		'name' => 'Header Widget',
+		'id' => 'header-widget',
+		'class' => 'header-widget',
+		'description' => 'Appears in the header area',
+		'before_widget' => '<div id="%1$s" class="header-widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+	register_sidebar( array(
 		'name' => 'Footer Header',
 		'id' => 'footer-header',
 		'description' => 'Appears in the footer area',

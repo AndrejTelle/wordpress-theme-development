@@ -57,7 +57,16 @@
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'discoverize' ); ?></button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'nav-menu', ) ); ?>
+
+				
 			</nav><!-- #site-navigation -->
+
+			<!-- widget header for search -->
+			<?php
+            if(is_active_sidebar('header-widget')){
+            dynamic_sidebar('header-widget');
+            }
+            ?>
 		</div>
 	</header><!-- #masthead -->
 
