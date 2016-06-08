@@ -7,6 +7,7 @@
 	/* custom local imports */
 
 	@import "icon-fonts";
+	@import "icon-fonts-settings";
 	@import "colors";
 
 	/* default imports via local cssLibrary Project - found under: https://github.com/andrejandrej/cssLibrary */
@@ -16,8 +17,9 @@
 	@import "base/links";
 	@import "base/lists";
 	@import "base/typography";
-	
+	@import "base/rounded-corners";
              
+	@import "elements/circle";
 	@import "elements/shadows";
 	@import "elements/blockquotes";
 	@import "elements/border-heading";
@@ -223,10 +225,15 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 	.blog-posts li:first-child, .archive-trail + ul li:first-child {border-top:none;}
 	.blog-posts li:last-child, .archive-trail + ul li:last-child {border-bottom:none;}	
 	
-	.published {@extend .icon-clock, %icon-small; margin-right:16px; font-size:0.8em; font-style:italic;}
-	.m-author {@extend .icon-user, %icon-small;margin-right:16px;font-size:0.8em;font-style:italic;}
-	.tags {@extend .icon-tag-stroke, %icon-small;margin-right:16px;font-size:0.8em;font-style:italic;}
-	.comment-count {@extend .icon-bubbles, %icon-small;font-size:0.8em;font-style:italic;}
+	.entry-meta {font-size:0.8em; font-style:italic;
+		.avatar-wrapper {float:left; margin-right:16px; margin-top:-8px;}
+		.avatar {@include circle;}
+		}	
+	.posted-on {@extend .icon-clock, %icon-small; margin-right:16px;}
+	.byline {@extend .icon-user, %icon-small;margin-right:16px;}
+	.cat-links {@extend .icon-paperclip, %icon-small; margin-right:16px;}
+	.tags-links {@extend .icon-tag-stroke, %icon-small;}
+	.comment-count {@extend .icon-bubbles, %icon-small;}
 	h2.comment-count {@extend .icon-bubbles, %icon-50; font-style:normal; font-size:2.5em; margin-top:2em;}
 	
 	img {max-width:100%; height:auto;}
@@ -291,6 +298,52 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 	
 	/* end comment form */
 	
+	// post navigation 
+		.post-navigation {text-align: left;	overflow: hidden;}
+
+		.nav-links {margin: 0 auto; padding: 0 .4em;}
+
+		.post-navigation {margin:2em 0;
+			a {background:transparentize($primary,0.8); display: block; width: 100%; text-decoration: none; padding: 1em; margin-bottom:1em;}
+			a:hover {background:$primary; 
+				.post-title {text-decoration:underline;}
+				}
+			.meta-nav {display:block;}
+			.post-title {font-size:1.3em; padding-top:0.6em; display:block;}
+			}
+
+		.nav-previous .meta-nav {@extend .icon-arrow-left;
+			&:before {margin-right:8px;}
+			}
+		.nav-next .meta-nav {@extend .icon-arrow-right-after;
+			&:after {margin-left:8px;}
+			}
+
+		@media screen and (min-width: 30em) {
+
+			.nav-links {
+				display: flex;
+				justify-content: space-between;
+				align-items: stretch;
+				padding: 0;
+			}
+
+			.post-navigation .nav-previous {
+				display: flex;
+				align-items: stretch;
+				float: left;
+				width: 48%;
+			}
+
+			.post-navigation .nav-next {
+				display: flex;
+				align-items: stretch;
+				float: right;
+				text-align: right;
+				width: 48%;
+			}
+		}
+
 	
 	/* start */
 		
@@ -416,14 +469,14 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 	
 	footer ul {@extend %list-no-bullets;}
 	
-	.footer-header {text-align:center; @extend .container;}
+	.footer-header {text-align:center; @extend .center;}
 	.footer-header .logo {float:none;margin:1em 0 0 0; font-family:"open sans";}
 	.social-stuff {@extend .wrapper-white; padding:1.5em 2em 0.5em 2em;}
 	.ss12 {position:relative; top:-0.6em; margin-right:0.5em;}
 
-	#footer-quad {@extend .container;}
+	.footer-inside {@extend .center;}
 	
-	#footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth {@extend .bx25;}
+	.footer1, .footer2, .footer3, .footer4 {@extend .bx25;}
 	
 	.widget-footer-info {float:right;}
 	.user-display {float:right; margin:1em 3em 0 0;}

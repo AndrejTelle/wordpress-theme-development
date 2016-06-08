@@ -1,0 +1,25 @@
+/* rounded corners */
+	
+	@mixin rounded($top-left:0.3em, $top-right:0.3em, $bottom-right:0.3em, $bottom-left:0.3em) {		
+		border-radius: $top-left $top-right $bottom-right $bottom-left; 
+		-moz-border-radius: $top-left $top-right $bottom-right $bottom-left ; 
+		-webkit-border-top-left-radius:$top-left;
+		-webkit-border-top-right-radius:$top-right; 		
+		-webkit-border-bottom-right-radius:$bottom-right; 
+		-webkit-border-bottom-left-radius:$bottom-left;	
+		-moz-background-clip: padding-box; -webkit-background-clip: padding-box; background-clip: padding-box;
+	}
+
+    %rounded-xl {@include rounded(1em, 1em, 1em, 1em);}
+	%rounded-t {@include rounded(0.3em, 0.3em, 0, 0);} 
+	%rounded-t-xl {@include rounded(1em, 1em, 0, 0);} 
+    %rounded-b {@include rounded(0, 0, 0.3em, 0.3em);} 
+    %rounded-b-xl {@include rounded(0, 0, 1em, 1em);} 
+	%rounded-l {@include rounded(0.3em, 0, 0, 0.3em);} 
+	%rounded-r {@include rounded(0, 0.3em, 0.3em, 0);}
+
+	%rounded-remove{@include rounded(0,0,0,0);}
+	@mixin rounded-remove {@include rounded(0,0,0,0);}
+	%rounded-remove-top {border-top-left-radius: 0; border-top-right-radius: 0; -moz-border-top-left-radius: 0; -moz-border-top-right-radius: 0; -webkit-border-top-left-radius:0; -webkit-border-top-right-radius:0;}
+	
+/* end rounded corners */
