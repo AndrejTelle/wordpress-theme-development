@@ -1,13 +1,13 @@
 <?php
 /**
- * Template Name: No Header Page
+ * Template Name: Full Width
  *
  * @package discoverize
  */
 
 get_header(); ?>
 
-	<div id="primary" class="content-area content-area-no-header">
+	<div id="primary" class="content-area content-area-full-width">
 		<main id="main" class="site-main" role="main">
 
 			<?php
@@ -28,5 +28,4 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();
