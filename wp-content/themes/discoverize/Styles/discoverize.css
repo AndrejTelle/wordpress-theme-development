@@ -2638,6 +2638,9 @@ img {
     margin-left: 6px; }
 
 /* start */
+.home .content-area {
+  width: 100%; }
+
 .start h2 {
   padding-top: 2.5em; }
 
