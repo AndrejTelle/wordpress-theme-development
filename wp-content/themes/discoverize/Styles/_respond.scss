@@ -10,6 +10,7 @@
     // blog page layout 
     .content-area {@include bx(75%); padding-right:24px;}
     .widget-area {@include bx(25%);}
+    .content-area-full-width {width:100%; padding-right:0;}
 
     // header, nav, menu
     .main-navigation.toggled {position:static;}

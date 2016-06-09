@@ -2925,6 +2925,9 @@ img {
     /* Opera/IE 8+ */
     float: left;
     width: 25%; }
+  .content-area-full-width {
+    width: 100%;
+    padding-right: 0; }
   .main-navigation.toggled {
     position: static; }
   .menu-toggle {
