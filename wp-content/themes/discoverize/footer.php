@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
         <div class="footer-header">
             <a href="../../" class="logo">
-                <img alt="logo discoverize" src="/wordpress/wp-content/themes/discoverize/styles/img/discoverize-icon-logo-white.png">
+                <img alt="logo discoverize" src="/wp-content/themes/discoverize/styles/img/discoverize-icon-logo-white.png">
                 <span>discoverize</span>
             </a>
             <?php
