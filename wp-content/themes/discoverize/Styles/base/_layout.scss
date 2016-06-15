@@ -34,7 +34,8 @@
 
 @mixin center {@include border-box; @include group; width:100%; margin:0 auto; padding-left:12px; padding-right:12px;}
 
-.center {@include center;}
+.center-layout {@include center;}
+.center {margin:0 auto;}
 
 .space-l-r {padding-left:12px; padding-right:12px;}
 .space-b-xl{padding-bottom:3em;}

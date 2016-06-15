@@ -190,7 +190,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 
 /* content */
 	
-	.site-content {@extend .center; margin-bottom:3em; min-height:500px;}
+	.site-content {@extend .center-layout; margin-bottom:3em; min-height:500px;}
 	
 	/* messages */
 	
@@ -495,7 +495,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 		ul {@extend %list-no-bullets;}
 		}
 
-	.footer-header {text-align:center; @extend .center;}
+	.footer-header {text-align:center; @extend .center-layout;}
 	.footer-header .logo {float:none;margin:1em 0 0 0; font-family:"open sans";}
 	.social-stuff {@extend .wrapper-white; padding:1.5em 2em 0.5em 2em;}
 	.ss12 {position:relative; top:-0.6em; margin-right:0.5em;}

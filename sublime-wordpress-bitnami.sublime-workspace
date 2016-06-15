@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"continue-re",
+				"continue-reading-link	(content.php)"
+			],
+			[
 				"updated",
 				"updated_string"
 			],
@@ -75,40 +79,7 @@
 			"file": "wp-content/themes/discoverize/Styles/discoverize.scss",
 			"settings":
 			{
-				"buffer_size": 14120,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/discoverize/Styles/elements/_circle.scss",
-			"settings":
-			{
-				"buffer_size": 94,
-				"line_ending": "Windows",
-				"name": "// circles"
-			}
-		},
-		{
-			"file": "wp-content/themes/discoverize/footer.php",
-			"settings":
-			{
-				"buffer_size": 2213,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/discoverize/template-parts/content-single.php",
-			"settings":
-			{
-				"buffer_size": 867,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/discoverize/inc/template-tags.php",
-			"settings":
-			{
-				"buffer_size": 6176,
+				"buffer_size": 16653,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,9 +87,40 @@
 			"file": "wp-content/themes/discoverize/Styles/_respond.scss",
 			"settings":
 			{
-				"buffer_size": 1097,
-				"line_ending": "Windows",
-				"name": "// responsive styles for discoverize.com - created"
+				"buffer_size": 1157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/discoverize/content-page-full.php",
+			"settings":
+			{
+				"buffer_size": 661,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/discoverize/template-parts/content-page-no-header.php",
+			"settings":
+			{
+				"buffer_size": 850,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/discoverize/page.php",
+			"settings":
+			{
+				"buffer_size": 920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/discoverize/content-page-master-no-header.php",
+			"settings":
+			{
+				"buffer_size": 679,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -251,31 +253,47 @@
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/inc",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/elements",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/icon-fonts",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/img",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/template-parts",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/lemon-time-tracker-theme/template-parts",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/makeatrail",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/twentyfifteen",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/twentyfifteen/js"
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/twentyfourteen",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/page-templates"
 	],
 	"file_history":
 	[
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/makeatrail/inc/template-tags.php",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/inc/custom-header.php",
+		"/C/open/dz.com/export-orchrad-blogposts.xml",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/page-no-header.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/inc/template-tags.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/elements/_border-heading.scss",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/index.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/template-parts/content.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/template-parts/content-single.php",
+		"/C/Users/jeni/Downloads/export.xml",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/template-parts/content-page.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/content-gallery.php",
+		"/C/open/dz.com/export-orchard-mypage.xml",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/header.php",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/functions.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/_icon-fonts.scss",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/single.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/comments.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/archive.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/page.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-includes/post-formats.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/icon-fonts/style.css",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/_icon-fonts-settings.scss",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-includes/link-template.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/elements/_circle.scss",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/footer.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/_respond.scss",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/_icon-font-settings.scss",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/makeatrail/inc/template-tags.php",
+		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/inc/custom-header.php",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/js/navigation.js",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/base/_layout.scss",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/_colors.scss",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/single.php",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/template-parts/content.php",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/makeatrail/template-parts/content-single.php",
 		"/C/Users/jeni/Desktop/_temp/discoverize-icon-logo-white.png",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/_icon-fonts.scss",
-		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Styles/icon-fonts/style.css",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/discoverize/Gruntfile.js",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/wp-content/themes/makeatrail/header.php",
 		"/C/projects/wordpress-bitnami/apps/wordpress/htdocs/gitconfig",
@@ -370,37 +388,18 @@
 		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/2_elements/_image-display.scss",
 		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/3_blocks/_hexagon.scss",
 		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/_respond.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/3_blocks/_premium-block.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/2_elements/_buttons.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/_icon-fonts-settings.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Marinas/Styles/marinas.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/mylauf/Styles/mylauf.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/_custom.scss",
-		"/C/projects/teamaton.com/Homepage/Content/layout.scss",
-		"/C/Users/jeni/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/jeni/Desktop/_temp/test.css",
-		"/C/Users/jeni/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/projects/discoverize/src/Orchard.Web/Modules/Discoverize.Management/Styles/2_elements/_wrapper.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/2_elements/_circle.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/3_blocks/_tabs.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/1_base/_typography.scss",
-		"/C/projects/lemon-marketing/user/themes/lemonize/templates/base.html.twig",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/_style-guide.scss",
-		"/C/projects/dz.com with orchard/Orchard/Modules/oforms/Views/Parts.OForm.Display.cshtml",
-		"/C/projects/dz.com with orchard/Orchard/Modules/oforms/Views/EditorTemplates/Parts/OForms.Form.cshtml",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Beautify/Styles/beautify.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/Caravanmarkt/Styles/caravanmarkt.scss",
-		"/C/projects/discoverize/src/Orchard.Web/Themes/demo-portal-kinderhotel/Styles/demo-portal-kinderhotel.scss"
+		"/C/projects/discoverize/src/Orchard.Web/Themes/Neutral/Styles/3_blocks/_premium-block.scss"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\projects\\wordpress-bitnami\\apps\\wordpress\\htdocs",
 			"C:\\projects\\wordpress-bitnami\\apps\\wordpress\\htdocs\\wp-content\\themes\\makeatrail",
 			"C:\\projects\\wordpress-bitnami\\apps\\wordpress\\htdocs",
 			"C:\\projects\\discoverize\\src\\Orchard.Web\\Modules\\Discoverize.Management",
@@ -413,6 +412,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Alias=\"blog/",
+			"update-2-4-vollstandigkeit-von-eintragen-verbesserte-sortierung-nach-score",
+			"&quot;",
+			"content-area",
+			"padding-right: 32px",
+			"&quot;",
+			"twentyfourteen",
+			"content-are",
+			";}",
+			"searchform.php",
+			"popperscores",
 			">';\n",
 			"split up time_string/removed updated time",
 			"update",
@@ -529,18 +539,7 @@
 			"sp11",
 			";}",
 			"sp13",
-			"btn",
-			"header",
-			".css",
-			"map-marker",
-			":before {",
-			"node",
-			"footer-header",
-			"ms10",
-			"ms110",
-			"9rem",
-			"map-marker",
-			".map-marker"
+			"btn"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -548,6 +547,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Alias=\"",
+			"'",
+			"\"",
+			"discoverize",
 			"@include group",
 			":before {@include font-icon;",
 			".icon-mail_outline",
@@ -651,15 +654,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14120,
+						"buffer_size": 16653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6456,
-								6456
+								1346,
+								1346
 							]
 						],
 						"settings":
@@ -668,7 +671,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2488.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -676,25 +679,26 @@
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/discoverize/Styles/elements/_circle.scss",
+					"file": "wp-content/themes/discoverize/Styles/_respond.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 94,
+						"buffer_size": 1157,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								93,
-								93
+								376,
+								376
 							]
 						],
 						"settings":
 						{
-							"auto_name": "// circles",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -705,78 +709,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "wp-content/themes/discoverize/footer.php",
+					"file": "wp-content/themes/discoverize/content-page-full.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2213,
+						"buffer_size": 661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								515,
-								515
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "wp-content/themes/discoverize/template-parts/content-single.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 867,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								366,
-								366
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "wp-content/themes/discoverize/inc/template-tags.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6176,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1625,
-								1625
+								38,
+								38
 							]
 						],
 						"settings":
@@ -793,32 +738,93 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "wp-content/themes/discoverize/Styles/_respond.scss",
+					"buffer": 3,
+					"file": "wp-content/themes/discoverize/template-parts/content-page-no-header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1097,
+						"buffer_size": 850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								194,
-								194
+								250,
+								250
 							]
 						],
 						"settings":
 						{
-							"auto_name": "// responsive styles for discoverize.com - created",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "wp-content/themes/discoverize/page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/discoverize/content-page-master-no-header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -863,7 +869,7 @@
 	"project": "/C/projects/discoverize/src/Orchard.Web/Themes/themes.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1254,9 +1260,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "di",
 		"selected_items":
 		[
+			[
+				"di",
+				"C:\\projects\\discoverize\\src\\Orchard.Web\\Themes\\discoverize.sublime-project"
+			],
 			[
 				"",
 				"C:\\projects\\discoverize\\src\\Orchard.Web\\Themes\\discoverize.sublime-project"
