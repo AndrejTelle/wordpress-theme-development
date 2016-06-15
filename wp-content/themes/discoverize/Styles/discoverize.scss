@@ -58,7 +58,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 /* header */
 	
 	.site-header {@include group; font-family:"open Sans"; background:$primary;}	
-	.header-inside {@extend .center;}
+	.header-inside {@extend .center-layout;}
 	.hd1 {@extend .container, .space-l-r;}
 	.site-logo {float:left;}
 	.custom-logo-link {display:inline-block; padding:18px 8px 16px 0;}
@@ -500,7 +500,7 @@ body {background:url(img/bg-header.jpg) no-repeat 50% 40px, url(img/bg-body.png)
 	.social-stuff {@extend .wrapper-white; padding:1.5em 2em 0.5em 2em;}
 	.ss12 {position:relative; top:-0.6em; margin-right:0.5em;}
 
-	.footer-inside {@extend .center;}
+	.footer-inside {@extend .center-layout;}
 	
 	.footer1, .footer2, .footer3, .footer4 {@extend .bx25;}
 	

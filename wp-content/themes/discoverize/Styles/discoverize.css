@@ -1337,7 +1337,7 @@ table {
   box-sizing: border-box;
   /* Opera/IE 8+ */ }
 
-.center-layout, .site-content, .footer-header {
+.center-layout, .header-inside, .site-content, .footer-header, .footer-inside {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;
@@ -1349,13 +1349,13 @@ table {
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px; }
-  .center-layout:before, .site-content:before, .footer-header:before, .center-layout:after, .site-content:after, .footer-header:after {
+  .center-layout:before, .header-inside:before, .site-content:before, .footer-header:before, .footer-inside:before, .center-layout:after, .header-inside:after, .site-content:after, .footer-header:after, .footer-inside:after {
     content: "";
     display: table; }
-  .center-layout:after, .site-content:after, .footer-header:after {
+  .center-layout:after, .header-inside:after, .site-content:after, .footer-header:after, .footer-inside:after {
     clear: both; }
 
-.center, .header-inside, .st221, .st231, .st241, .st320, .st330, .st340, .st350, .footer-inside {
+.center, .st221, .st231, .st241, .st320, .st330, .st340, .st350 {
   margin: 0 auto; }
 
 .space-l-r, .border-heading, .st21, .st31, .st41, .st51, .st71, .st81, .st91, .ft11, .hd1, .present {
@@ -2905,7 +2905,7 @@ img {
 
 /* end footer */
 @media screen and (min-width: 984px) {
-  .center-layout, .site-content, .footer-header {
+  .center-layout, .header-inside, .site-content, .footer-header, .footer-inside {
     width: 984px; }
   .bx25, .f13, .st32, .st33, .st34, .st35, .footer1, .footer2, .footer3, .footer4 {
     width: 25%; }
